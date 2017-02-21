@@ -1,0 +1,328 @@
+<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="false" exportTarget="other" domain="DannoPeters.ca" resolutions="1x,2x" timestamp="1487706093224">
+  <folder name="css">
+    <file name="site_global.css" crc="3856229311"/>
+    <file name="design.css" crc="189740462" ref="design"/>
+    <file name="iefonts_design.css" crc="169975465" ref="design"/>
+    <file name="ndvi.css" crc="64781799" ref="ndvi"/>
+    <file name="iefonts_ndvi.css" crc="3804746260" ref="ndvi"/>
+    <file name="drone-services.css" crc="259601352" ref="drone-services"/>
+    <file name="iefonts_drone-services.css" crc="3982445957" ref="drone-services"/>
+    <file name="index.css" crc="3788450992" ref="index"/>
+    <file name="iefonts_index.css" crc="3958089308" ref="index"/>
+    <file name="media.css" crc="4167729283" ref="media"/>
+    <file name="iefonts_media.css" crc="285185843" ref="media"/>
+  </folder>
+  <folder name="assets">
+    <file name="fs3vk5li7w1u21x.jpg" crc="302131846" seo="true" mt="1472849538000"/>
+    <file name="ficjt2fi4idb3yi.tif" crc="3993342177" seo="true" mt="1473093715000"/>
+    <file name="instructables-_00.jpg" crc="399037291" seo="true" mt="1472842241000"/>
+    <file name="ndvi_vis_grad3_lowquality.png" crc="4128153597" seo="true" mt="1485712375000"/>
+    <file name="visual_lowquality.png" crc="4086195676" seo="true" mt="1485712350000"/>
+    <file name="visual-zoom-lowquality.jpg" crc="439456465" seo="true" mt="1485722213000"/>
+    <file name="ndvi_vis_raw-zoom-lowquality.jpg" crc="4150369836" seo="true" mt="1485722242000"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="drone-services:index:design:ndvi:media"/>
+    <file name="museutils.js" crc="4148063285" ref="drone-services:index:design:ndvi:media"/>
+    <file name="whatinput.js" crc="86476730" ref="drone-services:index:design:ndvi:media"/>
+    <file name="museconfig.js" crc="4179431180" ref="drone-services:index:design:ndvi:media"/>
+    <file name="jquery.watch.js" crc="437028206" ref="drone-services:index:design:ndvi:media"/>
+    <file name="webpro.js" crc="3986320349" ref="drone-services:index:ndvi:media:design"/>
+    <file name="musewpslideshow.js" crc="405464237" ref="drone-services:index:ndvi:media:design"/>
+    <file name="jquery.museoverlay.js" crc="305414130" ref="drone-services:index:ndvi:media:design"/>
+    <file name="touchswipe.js" crc="221459597" ref="drone-services:index:ndvi:media:design"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4001026563" ref="drone-services:index:ndvi:media:design"/>
+    <file name="jquery.musemenu.js" crc="3765830709" ref="drone-services:index:design:ndvi:media"/>
+    <file name="html5shiv.js" crc="4241844378" ref="drone-services:index:design:ndvi:media"/>
+    <file name="require.js" crc="4159430777" ref="drone-services:index:design:ndvi:media"/>
+    <file name="musewpdisclosure.js" crc="3865010892" ref="ndvi"/>
+  </folder>
+  <folder name="images">
+    <file name="drone-services-favicon.ico" crc="3865049730" ref="drone-services"/>
+    <file name="dji_phantom_3_pro-crop-u18505.jpg" crc="377829396" ref="drone-services"/>
+    <file name="dji_phantom_3_pro-crop-u18505_2x.jpg" crc="3918203052" ref="drone-services"/>
+    <file name="just4funlogoclear-u18556.png" crc="3811860210" ref="drone-services"/>
+    <file name="just4funlogoclear-u18556_2x.png" crc="3883383329" ref="drone-services"/>
+    <file name="u18558-6.png" crc="3944948423" ref="drone-services"/>
+    <file name="u18558-6_2x.png" crc="4080491462" ref="drone-services"/>
+    <file name="maple_leaf.png" crc="370734199" seo="true" ref="drone-services:ndvi"/>
+    <file name="maple_leaf_2x.png" crc="59162406" seo="true" ref="drone-services:ndvi"/>
+    <file name="off-u43815-fr.png" crc="4095995788" ref="drone-services:ndvi:index:design:media"/>
+    <file name="off-u43815-fr_2x.png" crc="4126495716" ref="drone-services:ndvi:index:design:media"/>
+    <file name="unavailable-u43815-unavailable-fr.png" crc="138454497" ref="drone-services:ndvi:index:design:media"/>
+    <file name="unavailable-u43815-unavailable-fr_2x.png" crc="4252820774" ref="drone-services:ndvi:index:design:media"/>
+    <file name="off_rollover-u43815-off-r-fr.png" crc="3892182243" ref="drone-services:ndvi:index:design:media"/>
+    <file name="off_rollover-u43815-off-r-fr_2x.png" crc="4014370087" ref="drone-services:ndvi:index:design:media"/>
+    <file name="off_mousedown-u43815-off-m-fr.png" crc="3917414616" ref="drone-services:ndvi:index:design:media"/>
+    <file name="off_mousedown-u43815-off-m-fr_2x.png" crc="445293902" ref="drone-services:ndvi:index:design:media"/>
+    <file name="on-u43815-on-fr.png" crc="3975722076" ref="drone-services:ndvi:index:design:media"/>
+    <file name="on-u43815-on-fr_2x.png" crc="68976034" ref="drone-services:ndvi:index:design:media"/>
+    <file name="on_rollover-u43815-on-r-fr.png" crc="4214714208" ref="drone-services:ndvi:index:design:media"/>
+    <file name="on_rollover-u43815-on-r-fr_2x.png" crc="169171134" ref="drone-services:ndvi:index:design:media"/>
+    <file name="on_mousedown-u43815-on-m-fr.png" crc="207732060" ref="drone-services:ndvi:index:design:media"/>
+    <file name="on_mousedown-u43815-on-m-fr_2x.png" crc="4231382594" ref="drone-services:ndvi:index:design:media"/>
+    <file name="howell026-crop-u18559.jpg" crc="177141139" ref="drone-services"/>
+    <file name="howell026-crop-u18559_2x.jpg" crc="4200529453" ref="drone-services"/>
+    <file name="ed-wilma_924 zoom-crop-u32756.jpg" crc="4268189502" ref="drone-services"/>
+    <file name="ed-wilma_924 zoom-crop-u32756_2x.jpg" crc="3868548961" ref="drone-services"/>
+    <file name="er1_150ft.png" crc="273277845" seo="true" ref="drone-services"/>
+    <file name="er1_150ft_2x.png" crc="4197508677" seo="true" ref="drone-services"/>
+    <file name="dji_0087_edited-1-crop-u32762.jpg" crc="185622545" ref="drone-services"/>
+    <file name="dji_0087_edited-1-crop-u32762_2x.jpg" crc="526965284" ref="drone-services"/>
+    <file name="dennis015-crop-u32759.jpg" crc="3995130246" ref="drone-services"/>
+    <file name="dennis015-crop-u32759_2x.jpg" crc="3967833091" ref="drone-services"/>
+    <file name="metheral farm0015-crop-u32775.jpg" crc="3877700471" ref="drone-services"/>
+    <file name="metheral farm0015-crop-u32775_2x.jpg" crc="4266940483" ref="drone-services"/>
+    <file name="metheral farm0015-crop-u32781.jpg" crc="214274482" ref="drone-services"/>
+    <file name="metheral farm0015-crop-u32781_2x.jpg" crc="134971548" ref="drone-services"/>
+    <file name="screen shot 2016-09-06 at 42241 pm-crop-u32777.jpg" crc="289470302" ref="drone-services"/>
+    <file name="screen shot 2016-09-06 at 42241 pm-crop-u32777_2x.jpg" crc="227352356" ref="drone-services"/>
+    <file name="untitled.jpg" crc="208220888" seo="true" ref="drone-services"/>
+    <file name="metheral farm0016-crop-u32769.png" crc="95318176" ref="drone-services"/>
+    <file name="metheral farm0016-crop-u32769_2x.png" crc="4281584620" ref="drone-services"/>
+    <file name="google_maps_logo-u32772.png" crc="156287235" ref="drone-services"/>
+    <file name="google_maps_logo-u32772_2x.png" crc="436901962" ref="drone-services"/>
+    <file name="u32771-5.png" crc="4206707940" ref="drone-services"/>
+    <file name="u32771-5_2x.png" crc="3949590698" ref="drone-services"/>
+    <file name="untitled_panorama2_edited-1 copy-crop-u32765.png" crc="3766891301" ref="drone-services"/>
+    <file name="untitled_panorama2_edited-1 copy-crop-u32765_2x.png" crc="471293653" ref="drone-services"/>
+    <file name="danno_hfr_fb360_format-crop-u33045.jpg" crc="89356347" ref="drone-services"/>
+    <file name="danno_hfr_fb360_format-crop-u33045_2x.jpg" crc="400128009" ref="drone-services"/>
+    <file name="sept1016_029.jpg" crc="3765814834" seo="true" ref="drone-services"/>
+    <file name="sept1016_029_2x.jpg" crc="298470763" seo="true" ref="drone-services"/>
+    <file name="main-favicon.ico" crc="3865049730" ref="index"/>
+    <file name="dan_2715-crop-u36187.jpg" crc="336031179" ref="index"/>
+    <file name="dan_2715-crop-u36187_2x.jpg" crc="321598295" ref="index"/>
+    <file name="pasted image 1911x977-crop-u36178.jpg" crc="231800314" ref="index"/>
+    <file name="u33463-5.png" crc="4047452632" ref="index"/>
+    <file name="u33463-5_2x.png" crc="4124151974" ref="index"/>
+    <file name="just4funlogoclear-u33476.png" crc="3811860210" ref="index"/>
+    <file name="just4funlogoclear-u33476_2x.png" crc="3883383329" ref="index"/>
+    <file name="cm2_5774-crop-u36228.jpg" crc="3841759213" ref="index"/>
+    <file name="cm2_5774-crop-u36228_2x.jpg" crc="514001348" ref="index"/>
+    <file name="u36285.png" crc="486445368" ref="index"/>
+    <file name="u36285_2x.png" crc="81532960" ref="index"/>
+    <file name="u36285-r.png" crc="3867296687" ref="index"/>
+    <file name="u36285-r_2x.png" crc="336925252" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:design"/>
+    <file name="danno china-crop-u36149.jpg" crc="250303043" ref="index"/>
+    <file name="danno china-crop-u36149_2x.jpg" crc="3963600093" ref="index"/>
+    <file name="dji_phantom_3_pro-crop-u36145.jpg" crc="9558945" ref="index"/>
+    <file name="dji_phantom_3_pro-crop-u36145_2x.jpg" crc="4091654859" ref="index"/>
+    <file name="gimbal 2-crop-u36147.jpg" crc="471254107" ref="index"/>
+    <file name="gimbal 2-crop-u36147_2x.jpg" crc="3902415012" ref="index"/>
+    <file name="design-favicon.ico" crc="3865049730" ref="design"/>
+    <file name="f8d939yi4idb3jk-crop-u39575.jpg" crc="312292986" ref="design"/>
+    <file name="f8d939yi4idb3jk-crop-u39575_2x.jpg" crc="302088505" ref="design"/>
+    <file name="just4funlogoclear-u35322.png" crc="3811860210" ref="design"/>
+    <file name="just4funlogoclear-u35322_2x.png" crc="3883383329" ref="design"/>
+    <file name="u35341-6.png" crc="135688760" ref="design"/>
+    <file name="u35341-6_2x.png" crc="326605581" ref="design"/>
+    <file name="pasted image 1375x687.jpg" crc="3962100136" seo="true" ref="design"/>
+    <file name="pasted image 1375x687_2x.jpg" crc="203774865" seo="true" ref="design"/>
+    <file name="gimbal 2-crop-u39666.jpg" crc="347228343" ref="design"/>
+    <file name="gimbal 2-crop-u39666_2x.jpg" crc="4011453910" ref="design"/>
+    <file name="pasted image 1417x673-crop-u39709.jpg" crc="128983503" ref="design"/>
+    <file name="pasted image 1417x673-crop-u39709_2x.jpg" crc="4290959428" ref="design"/>
+    <file name="pasted image 1624x514.jpg" crc="4235129440" seo="true" ref="design"/>
+    <file name="pasted image 1624x514_2x.jpg" crc="511089025" seo="true" ref="design"/>
+    <file name="fa7gwywi4j7d913.jpg" crc="4067036390" seo="true" ref="design"/>
+    <file name="fa7gwywi4j7d913_2x.jpg" crc="51662213" seo="true" ref="design"/>
+    <file name="fs3vk5li7w1u21x.jpg" crc="4099966202" seo="true" ref="design"/>
+    <file name="fjg6noni7w1u35slarge.jpg" crc="3870975391" seo="true" ref="design"/>
+    <file name="pasted image 874x373-crop-u39770.jpg" crc="4175337825" ref="design"/>
+    <file name="pasted image 874x373-crop-u39770_2x.jpg" crc="247733945" ref="design"/>
+    <file name="pasted image 548x611.jpg" crc="480202757" seo="true" ref="design"/>
+    <file name="pasted image 548x611_2x.jpg" crc="3820093132" seo="true" ref="design"/>
+    <file name="ndvi-favicon.ico" crc="3865049730" ref="ndvi"/>
+    <file name="dji_phantom_3_pro-crop-u36951.jpg" crc="377829396" ref="ndvi"/>
+    <file name="dji_phantom_3_pro-crop-u36951_2x.jpg" crc="3918203052" ref="ndvi"/>
+    <file name="just4funlogoclear-u36949.png" crc="3811860210" ref="ndvi"/>
+    <file name="just4funlogoclear-u36949_2x.png" crc="3883383329" ref="ndvi"/>
+    <file name="u36923-6.png" crc="3944948423" ref="ndvi"/>
+    <file name="u36923-6_2x.png" crc="4080491462" ref="ndvi"/>
+    <file name="earth_ndvi_dannopeters.gif" crc="3864064968" seo="true" ref="ndvi"/>
+    <file name="river ir.jpg" crc="138220643" seo="true" ref="ndvi"/>
+    <file name="river ir_2x.jpg" crc="3872022278" seo="true" ref="ndvi"/>
+    <file name="saskatoon ndvi raw.jpg" crc="152374518" seo="true" ref="ndvi"/>
+    <file name="saskatoon ndvi raw_2x.jpg" crc="4120156398" seo="true" ref="ndvi"/>
+    <file name="saskatoon ndvi hd red green.jpg" crc="3938075530" seo="true" ref="ndvi"/>
+    <file name="saskatoon ndvi hd red green_2x.jpg" crc="168544498" seo="true" ref="ndvi"/>
+    <file name="saskatoon ndvi land cover.jpg" crc="161880465" seo="true" ref="ndvi"/>
+    <file name="saskatoon ndvi land cover_2x.jpg" crc="422021195" seo="true" ref="ndvi"/>
+    <file name="saskatoon ndvi green.jpg" crc="459726302" seo="true" ref="ndvi"/>
+    <file name="saskatoon ndvi green_2x.jpg" crc="3857809378" seo="true" ref="ndvi"/>
+    <file name="saskatoon ndvi iron.jpg" crc="3898096838" seo="true" ref="ndvi"/>
+    <file name="saskatoon ndvi iron_2x.jpg" crc="3828732583" seo="true" ref="ndvi"/>
+    <file name="saskatoon ndvi red green blind.jpg" crc="29363169" seo="true" ref="ndvi"/>
+    <file name="saskatoon ndvi red green blind_2x.jpg" crc="3852691176" seo="true" ref="ndvi"/>
+    <file name="saskatoon ndvi basic red green.jpg" crc="3997718451" seo="true" ref="ndvi"/>
+    <file name="saskatoon ndvi basic red green_2x.jpg" crc="501192799" seo="true" ref="ndvi"/>
+    <file name="brown leaf reflectance-crop-u38482.png" crc="341255798" ref="ndvi"/>
+    <file name="brown leaf reflectance.png" crc="350738823" seo="true" ref="ndvi"/>
+    <file name="brown leaf reflectance_2x.png" crc="3985583402" seo="true" ref="ndvi"/>
+    <file name="yellow leaf reflectance.png" crc="3848541058" seo="true" ref="ndvi"/>
+    <file name="yellow leaf reflectance_2x.png" crc="4066237840" seo="true" ref="ndvi"/>
+    <file name="green leaf reflectance.png" crc="4227380911" seo="true" ref="ndvi"/>
+    <file name="green leaf reflectance_2x.png" crc="3769907382" seo="true" ref="ndvi"/>
+    <file name="weed leaf reflectance.png" crc="409645414" seo="true" ref="ndvi"/>
+    <file name="weed leaf reflectance_2x.png" crc="3943153666" seo="true" ref="ndvi"/>
+    <file name="yellow-leaf.png" crc="70566567" seo="true" ref="ndvi"/>
+    <file name="yellow-leaf_2x.png" crc="70566567" seo="true" ref="ndvi"/>
+    <file name="brown-leaf.png" crc="19447793" seo="true" ref="ndvi"/>
+    <file name="brown-leaf_2x.png" crc="19447793" seo="true" ref="ndvi"/>
+    <file name="green-leaf.png" crc="512032001" seo="true" ref="ndvi"/>
+    <file name="green-leaf_2x.png" crc="512032001" seo="true" ref="ndvi"/>
+    <file name="weed_leaf.png" crc="299356140" seo="true" ref="ndvi"/>
+    <file name="weed_leaf_2x.png" crc="299356140" seo="true" ref="ndvi"/>
+    <file name="rock reflectance.png" crc="4096536684" seo="true" ref="ndvi"/>
+    <file name="rock reflectance_2x.png" crc="3898466363" seo="true" ref="ndvi"/>
+    <file name="false positive reflectance.png" crc="4036242172" seo="true" ref="ndvi"/>
+    <file name="false positive reflectance_2x.png" crc="4240881085" seo="true" ref="ndvi"/>
+    <file name="rock-576668.png" crc="442836634" seo="true" ref="ndvi"/>
+    <file name="rock-576668_2x.png" crc="4030334488" seo="true" ref="ndvi"/>
+    <file name="green-roof-house.png" crc="3977864656" seo="true" ref="ndvi"/>
+    <file name="green-roof-house_2x.png" crc="419940442" seo="true" ref="ndvi"/>
+    <file name="ndvi absorption.png" crc="486315889" seo="true" ref="ndvi"/>
+    <file name="ndvi absorption_2x.png" crc="4079964634" seo="true" ref="ndvi"/>
+    <file name="ndvi emittance.png" crc="4139493250" seo="true" ref="ndvi"/>
+    <file name="ndvi emittance_2x.png" crc="4150270516" seo="true" ref="ndvi"/>
+    <file name="media-favicon.ico" crc="3865049730" ref="media"/>
+    <file name="edited img_0270-crop-u40933.jpg" crc="394975474" ref="media"/>
+    <file name="edited img_0270-crop-u40933_2x.jpg" crc="457809478" ref="media"/>
+    <file name="just4funlogoclear-u40453.png" crc="3811860210" ref="media"/>
+    <file name="just4funlogoclear-u40453_2x.png" crc="3883383329" ref="media"/>
+    <file name="u40455-6.png" crc="4207516204" ref="media"/>
+    <file name="u40455-6_2x.png" crc="4068477755" ref="media"/>
+    <file name="dsc_0564-crop-u41485.jpg" crc="4204366116" ref="media"/>
+    <file name="dsc_0564-crop-u41485_2x.jpg" crc="4122505771" ref="media"/>
+    <file name="sunpeaks pano branded-crop-u41023.jpg" crc="496434852" ref="media"/>
+    <file name="sunpeaks pano branded-crop-u41023_2x.jpg" crc="4253725020" ref="media"/>
+    <file name="edmonton river valley 1.jpg" crc="3904499862" seo="true" ref="media"/>
+    <file name="edmonton river valley 1_2x.jpg" crc="3770754859" seo="true" ref="media"/>
+    <file name="mitchinsons011_marked-crop-u41164.jpg" crc="3777079027" ref="media"/>
+    <file name="mitchinsons011_marked-crop-u41164_2x.jpg" crc="4101882048" ref="media"/>
+    <file name="sept1016_010.jpg" crc="4246059140" seo="true" ref="media"/>
+    <file name="sept1016_010_2x.jpg" crc="396689109" seo="true" ref="media"/>
+    <file name="howell farm.jpg" crc="3832238850" seo="true" ref="media"/>
+    <file name="howell farm_2x.jpg" crc="4005818101" seo="true" ref="media"/>
+    <file name="eagleridge.jpg" crc="4116034717" seo="true" ref="media"/>
+    <file name="eagleridge_2x.jpg" crc="3843372644" seo="true" ref="media"/>
+    <file name="dsc_0200 copy-crop-u41166.jpg" crc="124520065" ref="media"/>
+    <file name="dsc_0200 copy-crop-u41166_2x.jpg" crc="529395937" ref="media"/>
+    <file name="welding filter.gif" crc="473890298" seo="true" ref="media"/>
+    <file name="img_0567.jpg" crc="4224095706" seo="true" ref="media"/>
+    <file name="img_0567_2x.jpg" crc="4029848184" seo="true" ref="media"/>
+    <file name="flying_aug1916_004-crop-u41162.jpg" crc="3953652649" ref="media"/>
+    <file name="flying_aug1916_004-crop-u41162_2x.jpg" crc="3801478977" ref="media"/>
+    <file name="edited a img_3152 2.jpg" crc="3792070458" seo="true" ref="media"/>
+    <file name="edited a img_3152 2_2x.jpg" crc="235310961" seo="true" ref="media"/>
+    <file name="img_0309.jpg" crc="113690680" seo="true" ref="media"/>
+    <file name="img_0309_2x.jpg" crc="141304966" seo="true" ref="media"/>
+    <file name="danno_hfr004-crop-u41282.jpg" crc="446717845" ref="media"/>
+    <file name="danno_hfr004-crop-u41282_2x.jpg" crc="377360851" ref="media"/>
+    <file name="img_0492_edited-1.jpg" crc="102031002" seo="true" ref="media"/>
+    <file name="img_0492_edited-1_2x.jpg" crc="356323849" seo="true" ref="media"/>
+    <file name="dsc_0030.jpg" crc="3859346788" seo="true" ref="media"/>
+    <file name="dsc_0030_2x.jpg" crc="172672129" seo="true" ref="media"/>
+    <file name="img_0951.jpg" crc="3996145161" seo="true" ref="media"/>
+    <file name="img_0951_2x.jpg" crc="4089310285" seo="true" ref="media"/>
+    <file name="dan_2183_edited-1.jpg" crc="210288904" seo="true" ref="media"/>
+    <file name="dan_2183_edited-1_2x.jpg" crc="3788971699" seo="true" ref="media"/>
+    <file name="u46427.png" crc="425894172" ref="drone-services"/>
+    <file name="u46427_2x.png" crc="154989733" ref="drone-services"/>
+    <file name="u46427-r.png" crc="4192608712" ref="drone-services"/>
+    <file name="u46427-r_2x.png" crc="3957363303" ref="drone-services"/>
+    <file name="u46427-m.png" crc="4192608712" ref="drone-services"/>
+    <file name="u46427-m_2x.png" crc="3957363303" ref="drone-services"/>
+    <file name="u46382.png" crc="4023544116" ref="drone-services"/>
+    <file name="u46382_2x.png" crc="236245499" ref="drone-services"/>
+    <file name="u46382-r.png" crc="3775538216" ref="drone-services"/>
+    <file name="u46382-r_2x.png" crc="3831005878" ref="drone-services"/>
+    <file name="u46382-m.png" crc="3775538216" ref="drone-services"/>
+    <file name="u46382-m_2x.png" crc="3831005878" ref="drone-services"/>
+    <file name="u46429.png" crc="3944819444" ref="drone-services"/>
+    <file name="u46429_2x.png" crc="314335807" ref="drone-services"/>
+    <file name="u46429-r.png" crc="387537840" ref="drone-services"/>
+    <file name="u46429-r_2x.png" crc="3883543431" ref="drone-services"/>
+    <file name="u46429-m.png" crc="387537840" ref="drone-services"/>
+    <file name="u46429-m_2x.png" crc="3883543431" ref="drone-services"/>
+    <file name="u45853.png" crc="425894172" ref="index"/>
+    <file name="u45853_2x.png" crc="154989733" ref="index"/>
+    <file name="u45853-r.png" crc="4192608712" ref="index"/>
+    <file name="u45853-r_2x.png" crc="3957363303" ref="index"/>
+    <file name="u45853-m.png" crc="4192608712" ref="index"/>
+    <file name="u45853-m_2x.png" crc="3957363303" ref="index"/>
+    <file name="u45851.png" crc="4023544116" ref="index"/>
+    <file name="u45851_2x.png" crc="236245499" ref="index"/>
+    <file name="u45851-r.png" crc="3775538216" ref="index"/>
+    <file name="u45851-r_2x.png" crc="3831005878" ref="index"/>
+    <file name="u45851-m.png" crc="3775538216" ref="index"/>
+    <file name="u45851-m_2x.png" crc="3831005878" ref="index"/>
+    <file name="u45740.png" crc="3944819444" ref="index"/>
+    <file name="u45740_2x.png" crc="314335807" ref="index"/>
+    <file name="u45740-r.png" crc="387537840" ref="index"/>
+    <file name="u45740-r_2x.png" crc="3883543431" ref="index"/>
+    <file name="u45740-m.png" crc="387537840" ref="index"/>
+    <file name="u45740-m_2x.png" crc="3883543431" ref="index"/>
+    <file name="u48413.png" crc="425894172" ref="design"/>
+    <file name="u48413_2x.png" crc="154989733" ref="design"/>
+    <file name="u48413-r.png" crc="4192608712" ref="design"/>
+    <file name="u48413-r_2x.png" crc="3957363303" ref="design"/>
+    <file name="u48413-m.png" crc="4192608712" ref="design"/>
+    <file name="u48413-m_2x.png" crc="3957363303" ref="design"/>
+    <file name="u48423.png" crc="4023544116" ref="design"/>
+    <file name="u48423_2x.png" crc="236245499" ref="design"/>
+    <file name="u48423-r.png" crc="3775538216" ref="design"/>
+    <file name="u48423-r_2x.png" crc="3831005878" ref="design"/>
+    <file name="u48423-m.png" crc="3775538216" ref="design"/>
+    <file name="u48423-m_2x.png" crc="3831005878" ref="design"/>
+    <file name="u48375.png" crc="3944819444" ref="design"/>
+    <file name="u48375_2x.png" crc="314335807" ref="design"/>
+    <file name="u48375-r.png" crc="387537840" ref="design"/>
+    <file name="u48375-r_2x.png" crc="3883543431" ref="design"/>
+    <file name="u48375-m.png" crc="387537840" ref="design"/>
+    <file name="u48375-m_2x.png" crc="3883543431" ref="design"/>
+    <file name="u47465.png" crc="425894172" ref="ndvi"/>
+    <file name="u47465_2x.png" crc="154989733" ref="ndvi"/>
+    <file name="u47465-r.png" crc="4192608712" ref="ndvi"/>
+    <file name="u47465-r_2x.png" crc="3957363303" ref="ndvi"/>
+    <file name="u47465-m.png" crc="4192608712" ref="ndvi"/>
+    <file name="u47465-m_2x.png" crc="3957363303" ref="ndvi"/>
+    <file name="u47420.png" crc="4023544116" ref="ndvi"/>
+    <file name="u47420_2x.png" crc="236245499" ref="ndvi"/>
+    <file name="u47420-r.png" crc="3775538216" ref="ndvi"/>
+    <file name="u47420-r_2x.png" crc="3831005878" ref="ndvi"/>
+    <file name="u47420-m.png" crc="3775538216" ref="ndvi"/>
+    <file name="u47420-m_2x.png" crc="3831005878" ref="ndvi"/>
+    <file name="u47467.png" crc="3944819444" ref="ndvi"/>
+    <file name="u47467_2x.png" crc="314335807" ref="ndvi"/>
+    <file name="u47467-r.png" crc="387537840" ref="ndvi"/>
+    <file name="u47467-r_2x.png" crc="3883543431" ref="ndvi"/>
+    <file name="u47467-m.png" crc="387537840" ref="ndvi"/>
+    <file name="u47467-m_2x.png" crc="3883543431" ref="ndvi"/>
+    <file name="u46961.png" crc="425894172" ref="media"/>
+    <file name="u46961_2x.png" crc="154989733" ref="media"/>
+    <file name="u46961-r.png" crc="4192608712" ref="media"/>
+    <file name="u46961-r_2x.png" crc="3957363303" ref="media"/>
+    <file name="u46961-m.png" crc="4192608712" ref="media"/>
+    <file name="u46961-m_2x.png" crc="3957363303" ref="media"/>
+    <file name="u46916.png" crc="4023544116" ref="media"/>
+    <file name="u46916_2x.png" crc="236245499" ref="media"/>
+    <file name="u46916-r.png" crc="3775538216" ref="media"/>
+    <file name="u46916-r_2x.png" crc="3831005878" ref="media"/>
+    <file name="u46916-m.png" crc="3775538216" ref="media"/>
+    <file name="u46916-m_2x.png" crc="3831005878" ref="media"/>
+    <file name="u46963.png" crc="3944819444" ref="media"/>
+    <file name="u46963_2x.png" crc="314335807" ref="media"/>
+    <file name="u46963-r.png" crc="387537840" ref="media"/>
+    <file name="u46963-r_2x.png" crc="3883543431" ref="media"/>
+    <file name="u46963-m.png" crc="387537840" ref="media"/>
+    <file name="u46963-m_2x.png" crc="3883543431" ref="media"/>
+  </folder>
+  <file name="drone-services.html" crc="4050782371" seo="true" mt="1487706009912" redirect="true"/>
+  <file name="index.html" crc="3811232057" seo="true" mt="1487706009900" redirect="true"/>
+  <file name="design.html" crc="4012573421" seo="true" mt="1487706027151" redirect="true"/>
+  <file name="ndvi.html" crc="494588131" seo="true" mt="1487706009905" redirect="true"/>
+  <file name="media.html" crc="108663370" seo="true" mt="1487706009908" redirect="true"/>
+</manifest>
