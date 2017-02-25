@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://DannoPeters.ca/index.html</loc>
-    <lastmod>2017-02-24</lastmod>
+    <lastmod>2017-02-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -283,12 +283,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://DannoPeters.ca/images/weed%20leaf%20reflectance.png</loc>
-    <lastmod>2017-02-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://DannoPeters.ca/assets/ndvi_vis_grad3_lowquality.png</loc>
     <lastmod>2017-01-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -297,6 +291,12 @@
   <url>
     <loc>http://DannoPeters.ca/assets/visual_lowquality.png</loc>
     <lastmod>2017-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://DannoPeters.ca/images/yellow-leaf.png</loc>
+    <lastmod>2017-02-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -553,18 +553,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://DannoPeters.ca/images/dannopeters_logo.png</loc>
-    <lastmod>2017-02-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://DannoPeters.ca/images/dannopeters_logo_2x.png</loc>
-    <lastmod>2017-02-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://DannoPeters.ca/assets/instructables-_00.jpg</loc>
     <lastmod>2016-09-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -577,7 +565,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://DannoPeters.ca/images/weed%20leaf%20reflectance_2x.png</loc>
+    <loc>http://DannoPeters.ca/images/weed%20leaf%20reflectance.png</loc>
     <lastmod>2017-02-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -589,7 +577,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://DannoPeters.ca/images/yellow-leaf.png</loc>
+    <loc>http://DannoPeters.ca/images/weed%20leaf%20reflectance_2x.png</loc>
     <lastmod>2017-02-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

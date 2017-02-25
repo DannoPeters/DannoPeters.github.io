@@ -1,17 +1,17 @@
-<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="false" exportTarget="other" domain="DannoPeters.ca" resolutions="1x,2x" timestamp="1488004619872">
+<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="false" exportTarget="other" domain="DannoPeters.ca" resolutions="1x,2x" timestamp="1488005114157">
   <folder name="css">
     <file name="site_global.css" crc="3856229311"/>
-    <file name="design.css" crc="509048350" ref="design"/>
+    <file name="design.css" crc="382822138" ref="design"/>
     <file name="iefonts_design.css" crc="177630293" ref="design"/>
-    <file name="ndvi.css" crc="478123684" ref="ndvi"/>
+    <file name="ndvi.css" crc="419534937" ref="ndvi"/>
     <file name="iefonts_ndvi.css" crc="4153133595" ref="ndvi"/>
-    <file name="drone-services.css" crc="3797315704" ref="drone-services"/>
+    <file name="drone-services.css" crc="347013821" ref="drone-services"/>
     <file name="iefonts_drone-services.css" crc="4156386381" ref="drone-services"/>
-    <file name="index.css" crc="464250515" ref="index"/>
+    <file name="index.css" crc="3929831841" ref="index"/>
     <file name="iefonts_index.css" crc="4240624531" ref="index"/>
-    <file name="media.css" crc="500634430" ref="media"/>
+    <file name="media.css" crc="352246398" ref="media"/>
     <file name="iefonts_media.css" crc="288402533" ref="media"/>
-    <file name="master_a-master.css" crc="508296422" ref="media:design:ndvi:index:drone-services"/>
+    <file name="master_a-master.css" crc="79887912" ref="media:design:ndvi:index:drone-services"/>
   </folder>
   <folder name="assets">
     <file name="fs3vk5li7w1u21x.jpg" crc="302131846" seo="true" mt="1472849538000"/>
@@ -134,7 +134,7 @@
     <file name="saskatoon ndvi red green blind_2x.jpg" crc="3852691176" seo="true" ref="ndvi"/>
     <file name="saskatoon ndvi basic red green.jpg" crc="3997718451" seo="true" ref="ndvi"/>
     <file name="saskatoon ndvi basic red green_2x.jpg" crc="501192799" seo="true" ref="ndvi"/>
-    <file name="brown leaf reflectance-crop-u38482.png" crc="200455564" ref="ndvi"/>
+    <file name="brown leaf reflectance-crop-u38482.png" crc="341255798" ref="ndvi"/>
     <file name="brown leaf reflectance.png" crc="350738823" seo="true" ref="ndvi"/>
     <file name="brown leaf reflectance_2x.png" crc="3985583402" seo="true" ref="ndvi"/>
     <file name="yellow leaf reflectance.png" crc="3848541058" seo="true" ref="ndvi"/>
@@ -235,13 +235,13 @@
     <file name="u49095-r_2x.png" crc="4065340133" ref="drone-services:index:design:ndvi:media"/>
     <file name="u49095-m.png" crc="4185164780" ref="drone-services:index:design:ndvi:media"/>
     <file name="u49095-m_2x.png" crc="4065340133" ref="drone-services:index:design:ndvi:media"/>
-    <file name="dannopeters_logo.png" crc="3938181516" seo="true" ref="drone-services:index:design:ndvi:media"/>
-    <file name="dannopeters_logo_2x.png" crc="111906925" seo="true" ref="drone-services:index:design:ndvi:media"/>
     <file name="pasted image 1911x977-crop-u54914.jpg" crc="231800314" ref="index"/>
+    <file name="dannopeters_logo-u52525.png" crc="3814015319" ref="drone-services:index:design:ndvi:media"/>
+    <file name="dannopeters_logo-u52525_2x.png" crc="331041279" ref="drone-services:index:design:ndvi:media"/>
   </folder>
-  <file name="drone-services.html" crc="4026352495" seo="true" mt="1488004584191" redirect="true"/>
-  <file name="index.html" crc="3807879003" seo="true" mt="1488002208624" redirect="true"/>
-  <file name="design.html" crc="3801799971" seo="true" mt="1488004058074" redirect="true"/>
-  <file name="ndvi.html" crc="133947171" seo="true" mt="1488004308074" redirect="true"/>
-  <file name="media.html" crc="435573696" seo="true" mt="1488003893946" redirect="true"/>
+  <file name="drone-services.html" crc="3952497878" seo="true" mt="1488005056441" redirect="true"/>
+  <file name="index.html" crc="4214126428" seo="true" mt="1488005056441" redirect="true"/>
+  <file name="design.html" crc="373099402" seo="true" mt="1488005056441" redirect="true"/>
+  <file name="ndvi.html" crc="65722787" seo="true" mt="1488005056441" redirect="true"/>
+  <file name="media.html" crc="61838256" seo="true" mt="1488005056441" redirect="true"/>
 </manifest>
