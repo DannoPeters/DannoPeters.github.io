@@ -1,7 +1,7 @@
-<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="false" exportTarget="other" domain="DannoPeters.ca" resolutions="1x,2x" timestamp="1488005114157">
+<manifest alg="2" build="2017.0.1.363" opt="true" iceEnabled="false" exportTarget="other" domain="DannoPeters.ca" resolutions="1x,2x" timestamp="1488005377793">
   <folder name="css">
     <file name="site_global.css" crc="3856229311"/>
-    <file name="design.css" crc="382822138" ref="design"/>
+    <file name="design.css" crc="4257374293" ref="design"/>
     <file name="iefonts_design.css" crc="177630293" ref="design"/>
     <file name="ndvi.css" crc="419534937" ref="ndvi"/>
     <file name="iefonts_ndvi.css" crc="4153133595" ref="ndvi"/>
@@ -32,7 +32,7 @@
     <file name="musewpslideshow.js" crc="405464237" ref="drone-services:index:ndvi:media:design"/>
     <file name="jquery.museoverlay.js" crc="305414130" ref="drone-services:index:ndvi:media:design"/>
     <file name="touchswipe.js" crc="221459597" ref="drone-services:index:ndvi:media:design"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4001026563" ref="drone-services"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4001026563" ref="drone-services:design"/>
     <file name="jquery.musemenu.js" crc="3765830709" ref="drone-services:index:design:ndvi:media"/>
     <file name="html5shiv.js" crc="4241844378" ref="drone-services:index:design:ndvi:media"/>
     <file name="require.js" crc="4159430777" ref="drone-services:index:design:ndvi:media"/>
@@ -98,8 +98,8 @@
     <file name="u35341-6_2x.png" crc="326605581" ref="design"/>
     <file name="pasted image 1375x687.jpg" crc="3962100136" seo="true" ref="design"/>
     <file name="pasted image 1375x687_2x.jpg" crc="203774865" seo="true" ref="design"/>
-    <file name="gimbal 2-crop-u39666.jpg" crc="347228343" ref="design"/>
-    <file name="gimbal 2-crop-u39666_2x.jpg" crc="4011453910" ref="design"/>
+    <file name="gimbal 2-crop-u39666.jpg" crc="71804097" ref="design"/>
+    <file name="gimbal 2-crop-u39666_2x.jpg" crc="4019169139" ref="design"/>
     <file name="pasted image 1417x673-crop-u39709.jpg" crc="128983503" ref="design"/>
     <file name="pasted image 1417x673-crop-u39709_2x.jpg" crc="4290959428" ref="design"/>
     <file name="pasted image 1624x514.jpg" crc="4235129440" seo="true" ref="design"/>
@@ -203,20 +203,20 @@
     <file name="img_0951_2x.jpg" crc="4089310285" seo="true" ref="media"/>
     <file name="dan_2183_edited-1.jpg" crc="210288904" seo="true" ref="media"/>
     <file name="dan_2183_edited-1_2x.jpg" crc="3788971699" seo="true" ref="media"/>
-    <file name="off-u49088-fr.png" crc="4127581022" ref="drone-services"/>
-    <file name="off-u49088-fr_2x.png" crc="4045063771" ref="drone-services"/>
-    <file name="unavailable-u49088-unavailable-fr.png" crc="4073077407" ref="drone-services"/>
-    <file name="unavailable-u49088-unavailable-fr_2x.png" crc="3887090482" ref="drone-services"/>
-    <file name="off_rollover-u49088-off-r-fr.png" crc="329157455" ref="drone-services"/>
-    <file name="off_rollover-u49088-off-r-fr_2x.png" crc="374389402" ref="drone-services"/>
-    <file name="off_mousedown-u49088-off-m-fr.png" crc="4224052066" ref="drone-services"/>
-    <file name="off_mousedown-u49088-off-m-fr_2x.png" crc="332219046" ref="drone-services"/>
-    <file name="on-u49088-on-fr.png" crc="4227417253" ref="drone-services"/>
-    <file name="on-u49088-on-fr_2x.png" crc="3812858068" ref="drone-services"/>
-    <file name="on_rollover-u49088-on-r-fr.png" crc="4058860863" ref="drone-services"/>
-    <file name="on_rollover-u49088-on-r-fr_2x.png" crc="4078907173" ref="drone-services"/>
-    <file name="on_mousedown-u49088-on-m-fr.png" crc="199738993" ref="drone-services"/>
-    <file name="on_mousedown-u49088-on-m-fr_2x.png" crc="4235750524" ref="drone-services"/>
+    <file name="off-u49088-fr.png" crc="4127581022" ref="drone-services:design"/>
+    <file name="off-u49088-fr_2x.png" crc="4045063771" ref="drone-services:design"/>
+    <file name="unavailable-u49088-unavailable-fr.png" crc="4073077407" ref="drone-services:design"/>
+    <file name="unavailable-u49088-unavailable-fr_2x.png" crc="3887090482" ref="drone-services:design"/>
+    <file name="off_rollover-u49088-off-r-fr.png" crc="329157455" ref="drone-services:design"/>
+    <file name="off_rollover-u49088-off-r-fr_2x.png" crc="374389402" ref="drone-services:design"/>
+    <file name="off_mousedown-u49088-off-m-fr.png" crc="4224052066" ref="drone-services:design"/>
+    <file name="off_mousedown-u49088-off-m-fr_2x.png" crc="332219046" ref="drone-services:design"/>
+    <file name="on-u49088-on-fr.png" crc="4227417253" ref="drone-services:design"/>
+    <file name="on-u49088-on-fr_2x.png" crc="3812858068" ref="drone-services:design"/>
+    <file name="on_rollover-u49088-on-r-fr.png" crc="4058860863" ref="drone-services:design"/>
+    <file name="on_rollover-u49088-on-r-fr_2x.png" crc="4078907173" ref="drone-services:design"/>
+    <file name="on_mousedown-u49088-on-m-fr.png" crc="199738993" ref="drone-services:design"/>
+    <file name="on_mousedown-u49088-on-m-fr_2x.png" crc="4235750524" ref="drone-services:design"/>
     <file name="u49164.png" crc="94237757" ref="drone-services:index:design:ndvi:media"/>
     <file name="u49164_2x.png" crc="369365161" ref="drone-services:index:design:ndvi:media"/>
     <file name="u49164-r.png" crc="438044963" ref="drone-services:index:design:ndvi:media"/>
@@ -241,7 +241,7 @@
   </folder>
   <file name="drone-services.html" crc="3952497878" seo="true" mt="1488005056441" redirect="true"/>
   <file name="index.html" crc="4214126428" seo="true" mt="1488005056441" redirect="true"/>
-  <file name="design.html" crc="373099402" seo="true" mt="1488005056441" redirect="true"/>
+  <file name="design.html" crc="247143476" seo="true" mt="1488005356407" redirect="true"/>
   <file name="ndvi.html" crc="65722787" seo="true" mt="1488005056441" redirect="true"/>
   <file name="media.html" crc="61838256" seo="true" mt="1488005056441" redirect="true"/>
 </manifest>
