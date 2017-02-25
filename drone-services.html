@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="nojs html css_verticalspacer" lang="en-US">
+<html class="nojs html" lang="en-US">
  <head>
 
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
@@ -19,10 +19,11 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>Drone Services</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3856229311"/>
-  <link rel="stylesheet" type="text/css" href="css/drone-services.css?crc=259601352" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=508296422"/>
+  <link rel="stylesheet" type="text/css" href="css/drone-services.css?crc=3797315704" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/iefonts_drone-services.css?crc=3982445957"/>
+  <link rel="stylesheet" type="text/css" href="css/iefonts_drone-services.css?crc=4156386381"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -281,11 +282,265 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 				}
 				
 				.twentytwenty-before-label:before {
-					content: "Before";
+					content: "NDVI";
 				}
 				
 				.twentytwenty-after-label:before {
+					content: "Visual";
+				}
+				
+			</style>
+				
+		
+		  	<style>
+
+		  		.twentytwenty-horizontal .twentytwenty-handle:before, .twentytwenty-horizontal .twentytwenty-handle:after, .twentytwenty-vertical .twentytwenty-handle:before, .twentytwenty-vertical .twentytwenty-handle:after {
+					content: " ";
+					display: block;
+					background: white;
+					position: absolute;
+					z-index: 30;
+					-webkit-box-shadow: 0px 0px 12px rgba(51, 51, 51, 0.5);
+					-moz-box-shadow: 0px 0px 12px rgba(51, 51, 51, 0.5);
+					box-shadow: 0px 0px 12px rgba(51, 51, 51, 0.5);
+				}
+
+				.twentytwenty-horizontal .twentytwenty-handle:before, .twentytwenty-horizontal .twentytwenty-handle:after {
+					width: 3px;
+					height: 9999px;
+					left: 50%;
+					margin-left: -1.5px;
+				}
+
+				.twentytwenty-vertical .twentytwenty-handle:before, .twentytwenty-vertical .twentytwenty-handle:after {
+					width: 9999px;
+					height: 3px;
+					top: 50%;
+					margin-top: -1.5px;
+				}
+
+				.twentytwenty-before-label, .twentytwenty-after-label, .twentytwenty-overlay {
+					position: absolute;
+					top: 0;
+					width: 100%;
+					height: 100%;
+				}
+
+				.twentytwenty-before-label, .twentytwenty-after-label, .twentytwenty-overlay {
+					-webkit-transition-duration: 0.5s;
+					-moz-transition-duration: 0.5s;
+					transition-duration: 0.5s;
+				}
+
+				.twentytwenty-before-label, .twentytwenty-after-label {
+					-webkit-transition-property: opacity;
+					-moz-transition-property: opacity;
+					transition-property: opacity;
+				}
+
+				.twentytwenty-before-label:before, .twentytwenty-after-label:before {
+					color: white;
+					font-size: 13px;
+					letter-spacing: 0.1em;
+				}
+
+				.twentytwenty-before-label:before, .twentytwenty-after-label:before {
+					position: absolute;
+					background: rgba(255, 255, 255, 0.2);
+					line-height: 38px;
+					padding: 0 20px;
+					-webkit-border-radius: 2px;
+					-moz-border-radius: 2px;
+					border-radius: 2px;
+				}
+
+				.twentytwenty-horizontal .twentytwenty-before-label:before, .twentytwenty-horizontal .twentytwenty-after-label:before {
+					top: 50%;
+					margin-top: -19px;
+				}
+
+				.twentytwenty-vertical .twentytwenty-before-label:before, .twentytwenty-vertical .twentytwenty-after-label:before {
+					left: 50%;
+					margin-left: -45px;
+					text-align: center;
+					width: 90px;
+				}
+
+				.twentytwenty-left-arrow, .twentytwenty-right-arrow, .twentytwenty-up-arrow, .twentytwenty-down-arrow {
+					width: 0;
+					height: 0;
+					border: 6px inset transparent;
+					position: absolute;
+				}
+
+				.twentytwenty-left-arrow, .twentytwenty-right-arrow {
+					top: 50%;
+					margin-top: -6px;
+				}
+
+				.twentytwenty-up-arrow, .twentytwenty-down-arrow {
+					left: 50%;
+					margin-left: -6px;
+				}
+
+				.twentytwenty-container {
+					-webkit-box-sizing: content-box;
+					-moz-box-sizing: content-box;
+					box-sizing: content-box;
+					overflow: hidden;
+					position: relative;
+					-webkit-user-select: none;
+					-moz-user-select: none;
+				}
+				.twentytwenty-container img {
+					position: absolute;
+					top: 0;
+					display: block;
+				}
+				.twentytwenty-container.active .twentytwenty-overlay, .twentytwenty-container.active :hover.twentytwenty-overlay {
+					background: rgba(0, 0, 0, 0);
+				}
+				.twentytwenty-container.active .twentytwenty-overlay .twentytwenty-before-label,
+				.twentytwenty-container.active .twentytwenty-overlay .twentytwenty-after-label, .twentytwenty-container.active :hover.twentytwenty-overlay .twentytwenty-before-label,
+				.twentytwenty-container.active :hover.twentytwenty-overlay .twentytwenty-after-label {
+					opacity: 0;
+				}
+				.twentytwenty-container * {
+					-webkit-box-sizing: content-box;
+					-moz-box-sizing: content-box;
+					box-sizing: content-box;
+				}
+
+				.twentytwenty-before-label {
+					opacity: 0;
+				}
+				.twentytwenty-before-label:before {
+					content: "Before";
+				}
+
+				.twentytwenty-after-label {
+					opacity: 0;
+				}
+				.twentytwenty-after-label:before {
 					content: "After";
+				}
+
+				.twentytwenty-horizontal .twentytwenty-before-label:before {
+					left: 10px;
+				}
+
+				.twentytwenty-horizontal .twentytwenty-after-label:before {
+					right: 10px;
+				}
+
+				.twentytwenty-vertical .twentytwenty-before-label:before {
+					top: 10px;
+				}
+
+				.twentytwenty-vertical .twentytwenty-after-label:before {
+					bottom: 10px;
+				}
+
+				.twentytwenty-overlay {
+					z-index: 25;
+				}
+
+				.twentytwenty-overlay:hover .twentytwenty-after-label, .twentytwenty-overlay:hover .twentytwenty-before-label {
+					opacity: 1;
+				}
+
+				.twentytwenty-before {
+					z-index: 20;
+				}
+
+				.twentytwenty-after {
+					z-index: 10;
+				}
+
+				.twentytwenty-handle {
+					height: 38px;
+					width: 38px;
+					position: absolute;
+					left: 50%;
+					top: 50%;
+					margin-left: -22px;
+					margin-top: -22px;
+					border: 3px solid white;
+					-webkit-border-radius: 1000px;
+					-moz-border-radius: 1000px;
+					border-radius: 1000px;
+					-webkit-box-shadow: 0px 0px 12px rgba(51, 51, 51, 0.5);
+					-moz-box-shadow: 0px 0px 12px rgba(51, 51, 51, 0.5);
+					box-shadow: 0px 0px 12px rgba(51, 51, 51, 0.5);
+					z-index: 40;
+					cursor: pointer;
+				}
+
+				.twentytwenty-horizontal .twentytwenty-handle:before {
+					bottom: 50%;
+					margin-bottom: 22px;
+					-webkit-box-shadow: 0 3px 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);
+					-moz-box-shadow: 0 3px 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);
+					box-shadow: 0 3px 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);
+				}
+				.twentytwenty-horizontal .twentytwenty-handle:after {
+					top: 50%;
+					margin-top: 22px;
+					-webkit-box-shadow: 0 -3px 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);
+					-moz-box-shadow: 0 -3px 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);
+					box-shadow: 0 -3px 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);
+				}
+
+				.twentytwenty-vertical .twentytwenty-handle:before {
+					left: 50%;
+					margin-left: 22px;
+					-webkit-box-shadow: 3px 0 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);
+					-moz-box-shadow: 3px 0 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);
+					box-shadow: 3px 0 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);
+				}
+				.twentytwenty-vertical .twentytwenty-handle:after {
+					right: 50%;
+					margin-right: 22px;
+					-webkit-box-shadow: -3px 0 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);
+					-moz-box-shadow: -3px 0 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);
+					box-shadow: -3px 0 0 white, 0px 0px 12px rgba(51, 51, 51, 0.5);
+				}
+
+				.twentytwenty-left-arrow {
+					border-right: 6px solid white;
+					left: 50%;
+					margin-left: -17px;
+				}
+
+				.twentytwenty-right-arrow {
+					border-left: 6px solid white;
+					right: 50%;
+					margin-right: -17px;
+				}
+
+				.twentytwenty-up-arrow {
+					border-bottom: 6px solid white;
+					top: 50%;
+					margin-top: -17px;
+				}
+
+				.twentytwenty-down-arrow {
+					border-top: 6px solid white;
+					bottom: 50%;
+					margin-bottom: -17px;
+				}
+
+				.twentytwenty-before-label, 
+				.twentytwenty-after-label { 
+					display: initial;
+				}
+				
+				.twentytwenty-before-label:before {
+					content: "NDVI";
+				}
+				
+				.twentytwenty-after-label:before {
+					content: "VIsual";
 				}
 				
 			</style>
@@ -301,21 +556,9 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <div class="gradient" id="u18497"><!-- group -->
        <div class="clearfix" id="u18497_align_to_page">
         <div class="clip_frame grpelem" id="u18505"><!-- image -->
-         <img class="block" id="u18505_img" src="images/dji_phantom_3_pro-crop-u18505.jpg?crc=377829396" data-hidpi-src="images/dji_phantom_3_pro-crop-u18505_2x.jpg?crc=3918203052" alt="DJI Phantom 3 Professional Unmanned Aerial Vehicle ( UAV ) hovers durring a drone mission near Saskatoon, Saskatchewan, Canada" width="1221" height="430"/>
+         <img class="block" id="u18505_img" src="images/dji_phantom_3_pro-crop-u18505.jpg?crc=493701324" data-hidpi-src="images/dji_phantom_3_pro-crop-u18505_2x.jpg?crc=3765660435" alt="DJI Phantom 3 Professional Unmanned Aerial Vehicle ( UAV ) hovers durring a drone mission near Saskatoon, Saskatchewan, Canada" width="1221" height="430"/>
         </div>
-        <img class="grpelem" id="u18556" alt="" width="118" height="109" src="images/just4funlogoclear-u18556.png?crc=3811860210" data-hidpi-src="images/just4funlogoclear-u18556_2x.png?crc=3883383329"/><!-- rasterized frame -->
         <img class="grpelem" id="u18558-6" alt="Danno Peters Drones" width="1235" height="145" src="images/u18558-6.png?crc=3944948423" data-hidpi-src="images/u18558-6_2x.png?crc=4080491462"/><!-- rasterized frame -->
-        <div class="clearfix grpelem" id="u32909"><!-- group -->
-         <div class="clip_frame clearfix grpelem" id="u32327"><!-- image -->
-          <img class="position_content" id="u32327_img" src="images/maple_leaf.png?crc=370734199" data-hidpi-src="images/maple_leaf_2x.png?crc=59162406" alt="" width="133" height="133"/>
-         </div>
-         <div class="clearfix grpelem" id="u32339-4"><!-- content -->
-          <p>SFOC</p>
-         </div>
-         <div class="clearfix grpelem" id="u32381-4"><!-- content -->
-          <p>Registered</p>
-         </div>
-        </div>
        </div>
       </div>
      </div>
@@ -340,92 +583,105 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        </div>
       </div>
      </div>
+     <div class="clearfix grpelem" id="u32909"><!-- group -->
+      <div class="clip_frame clearfix grpelem" id="u32327"><!-- image -->
+       <img class="position_content" id="u32327_img" src="images/maple_leaf.png?crc=370734199" data-hidpi-src="images/maple_leaf_2x.png?crc=59162406" alt="" width="133" height="133"/>
+      </div>
+      <div class="clearfix grpelem" id="u32339-4"><!-- content -->
+       <p>SFOC</p>
+      </div>
+      <div class="clearfix grpelem" id="u32381-4"><!-- content -->
+       <p>Registered</p>
+      </div>
+     </div>
     </div>
-    <div class="clearfix colelem" id="ppamphletu43810"><!-- group -->
-     <div class="PamphletWidget clearfix" id="pamphletu43810"><!-- none box -->
-      <div class="popup_anchor" id="u43818popup">
-       <div class="ContainerGroup clearfix" id="u43818"><!-- none box -->
-        <div class="Container invi shadow rgba-background rounded-corners clearfix" id="u43819"><!-- group -->
-         <div class="clearfix grpelem" id="u43820-8"><!-- content -->
-          <p id="u43820-2"><span id="u43820">HiDPI - On/Off</span></p>
-          <p id="u43820-4">Enables High Dots Per Inch content.</p>
-          <p id="u43820-6">Only viewable on Retina or 4K displays.</p>
+    <div class="clearfix colelem" id="pu49080"><!-- group -->
+     <div class="clearfix" id="u49080"><!-- group -->
+      <div class="PamphletWidget clearfix" id="pamphletu49081"><!-- none box -->
+       <div class="popup_anchor" id="u49091popup">
+        <div class="ContainerGroup clearfix" id="u49091"><!-- none box -->
+         <div class="Container invi shadow rgba-background rounded-corners clearfix grpelem" id="u49092"><!-- group -->
+          <div class="clearfix grpelem" id="u49093-8"><!-- content -->
+           <p id="u49093-2"><span id="u49093">HiDPI - On/Off</span></p>
+           <p id="u49093-4">Enables High Dots Per Inch content.</p>
+           <p id="u49093-6">Only viewable on Retina or 4K displays.</p>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="ThumbGroup clearfix grpelem" id="u49086"><!-- none box -->
+        <div class="popup_anchor" id="u49087popup">
+         <div class="Thumb popup_element rounded-corners clearfix" id="u49087"><!-- group -->
+          <div class="transition museBGSize rgba-background rounded-corners hidpi_button unavailable grpelem" id="u49088"><!-- simple frame --></div>
          </div>
         </div>
        </div>
       </div>
-      <div class="ThumbGroup clearfix grpelem" id="u43813"><!-- none box -->
-       <div class="popup_anchor" id="u43814popup">
-        <div class="Thumb popup_element rounded-corners clearfix" id="u43814"><!-- group -->
-         <div class="transition museBGSize rgba-background rounded-corners hidpi_button unavailable grpelem" id="u43815"><!-- simple frame --></div>
-        </div>
-       </div>
-      </div>
      </div>
-     <div class="clearfix" id="u46264"><!-- group -->
-      <a class="nonblock nontext" id="u46427" href="https://www.facebook.com/Just4FunMedia.TK/"><!-- state-based BG images --></a>
-      <a class="nonblock nontext" id="u46382" href="https://www.instagram.com/just4fun_media/"><!-- state-based BG images --></a>
-      <a class="nonblock nontext" id="u46429" href="https://www.youtube.com/user/Just4FunMediaCan" target="_blank"><!-- state-based BG images --></a>
-      <nav class="MenuBar clearfix" id="menuu46346"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem" id="u46347"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive rounded-corners clearfix colelem" id="u46378" href="drone-services.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46380-4"><!-- content --><p>Drones</p></div></a>
-        <div class="SubMenu MenuLevel1 clearfix" id="u46348"><!-- vertical box -->
-         <ul class="SubMenuView rounded-corners clearfix colelem" id="u46349"><!-- vertical box -->
-          <li class="MenuItemContainer clearfix colelem" id="u46371"><!-- horizontal box --><div class="MenuItem MenuItemWithSubMenu clearfix grpelem" id="u46374"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46375-4"><!-- content --><p>Agriculture</p></div></div></li>
-          <li class="MenuItemContainer clearfix colelem" id="u46357"><!-- horizontal box --><div class="MenuItem MenuItemWithSubMenu clearfix grpelem" id="u46358"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46361-4"><!-- content --><p>Surveying</p></div></div></li>
-          <li class="MenuItemContainer clearfix colelem" id="u46364"><!-- horizontal box --><div class="MenuItem MenuItemWithSubMenu clearfix grpelem" id="u46365"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46366-4"><!-- content --><p>Photography</p></div></div></li>
-          <li class="MenuItemContainer clearfix colelem" id="u46350"><!-- horizontal box --><div class="MenuItem MenuItemWithSubMenu clearfix grpelem" id="u46353"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46355-4"><!-- content --><p>Inspections</p></div></div></li>
+     <div class="clearfix" id="u49094"><!-- group -->
+      <a class="nonblock nontext" id="u49164" href="https://www.facebook.com/Just4FunMedia.TK/"><!-- state-based BG images --></a>
+      <a class="nonblock nontext" id="u49162" href="https://www.instagram.com/just4fun_media/"><!-- state-based BG images --></a>
+      <a class="nonblock nontext" id="u49095" href="https://www.youtube.com/user/Just4FunMediaCan" target="_blank"><!-- state-based BG images --></a>
+      <nav class="MenuBar clearfix" id="menuu49225"><!-- horizontal box -->
+       <div class="MenuItemContainer clearfix grpelem" id="u49226"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive rounded-corners shadow clearfix colelem" id="u49257" href="drone-services.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49258-4"><!-- content --><p>Drones</p></div></a>
+        <div class="SubMenu MenuLevel1 clearfix" id="u49227"><!-- vertical box -->
+         <ul class="SubMenuView rounded-corners clearfix colelem" id="u49228"><!-- vertical box -->
+          <li class="MenuItemContainer clearfix colelem" id="u49236"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem" id="u49237" href="drone-services.html#agriculture"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49240-4"><!-- content --><p>Agriculture</p></div></a></li>
+          <li class="MenuItemContainer clearfix colelem" id="u49243"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem" id="u49244" href="drone-services.html#surveying"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49245-4"><!-- content --><p>Surveying</p></div></a></li>
+          <li class="MenuItemContainer clearfix colelem" id="u49229"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem" id="u49232" href="drone-services.html#aerial-photography"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49233-4"><!-- content --><p>Photography</p></div></a></li>
+          <li class="MenuItemContainer clearfix colelem" id="u49250"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix grpelem" id="u49253" href="drone-services.html#inspections"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49255-4"><!-- content --><p>Inspections</p></div></a></li>
          </ul>
         </div>
        </div>
       </nav>
-      <nav class="MenuBar clearfix" id="menuu46384"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem" id="u46385"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners shadow clearfix colelem" id="u46423" href="ndvi.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46426-4"><!-- content --><p>NDVI</p></div></a>
-        <div class="SubMenu MenuLevel1 clearfix" id="u46386"><!-- vertical box -->
-         <ul class="SubMenuView clearfix colelem" id="u46387"><!-- vertical box -->
-          <li class="MenuItemContainer clearfix colelem" id="u46409"><!-- horizontal box --><div class="MenuItem MenuItemWithSubMenu clearfix grpelem" id="u46410"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46411-4"><!-- content --><p>History</p></div></div></li>
-          <li class="MenuItemContainer clearfix colelem" id="u46416"><!-- horizontal box --><div class="MenuItem MenuItemWithSubMenu clearfix grpelem" id="u46417"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46418-4"><!-- content --><p>Colours</p></div></div></li>
-          <li class="MenuItemContainer clearfix colelem" id="u46395"><!-- horizontal box --><div class="MenuItem MenuItemWithSubMenu clearfix grpelem" id="u46396"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46397-4"><!-- content --><p>Basics</p></div></div></li>
-          <li class="MenuItemContainer clearfix colelem" id="u46388"><!-- horizontal box --><div class="MenuItem MenuItemWithSubMenu clearfix grpelem" id="u46389"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46390-4"><!-- content --><p>Types</p></div></div></li>
-          <li class="MenuItemContainer clearfix colelem" id="u46402"><!-- horizontal box --><div class="MenuItem MenuItemWithSubMenu clearfix grpelem" id="u46405"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46407-4"><!-- content --><p>How It Works</p></div></div></li>
+      <nav class="MenuBar clearfix" id="menuu49182"><!-- horizontal box -->
+       <div class="MenuItemContainer clearfix grpelem" id="u49183"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners shadow clearfix colelem" id="u49221" href="ndvi.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49223-4"><!-- content --><p>NDVI</p></div></a>
+        <div class="SubMenu MenuLevel1 clearfix" id="u49184"><!-- vertical box -->
+         <ul class="SubMenuView clearfix colelem" id="u49185"><!-- vertical box -->
+          <li class="MenuItemContainer clearfix colelem" id="u49193"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u49194" href="ndvi.html#history"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49196-4"><!-- content --><p>History</p></div></a></li>
+          <li class="MenuItemContainer clearfix colelem" id="u49200"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u49201" href="ndvi.html#gradients"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49202-4"><!-- content --><p>Colours</p></div></a></li>
+          <li class="MenuItemContainer clearfix colelem" id="u49214"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u49217" href="ndvi.html#basics"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49220-4"><!-- content --><p>Basics</p></div></a></li>
+          <li class="MenuItemContainer clearfix colelem" id="u49207"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u49208" href="ndvi.html#types"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49209-4"><!-- content --><p>Types</p></div></a></li>
+          <li class="MenuItemContainer clearfix colelem" id="u49186"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u49189" href="ndvi.html#spectra"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49192-4"><!-- content --><p>How It Works</p></div></a></li>
          </ul>
         </div>
        </div>
       </nav>
-      <nav class="MenuBar clearfix" id="menuu46265"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem" id="u46266"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners shadow clearfix colelem" id="u46267" href="media.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46268-4"><!-- content --><p>Media</p></div></a>
-        <div class="SubMenu MenuLevel1 clearfix" id="u46271"><!-- vertical box -->
-         <ul class="SubMenuView clearfix colelem" id="u46272"><!-- vertical box -->
-          <li class="MenuItemContainer clearfix colelem" id="u46287"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u46288" href="ndvi.html#history"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46291-4"><!-- content --><p>Pano and VR</p></div></a></li>
-          <li class="MenuItemContainer clearfix colelem" id="u46280"><!-- horizontal box --><div class="MenuItem MenuItemWithSubMenu clearfix grpelem" id="u46283"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46286-4"><!-- content --><p>Low Light</p></div></div></li>
-          <li class="MenuItemContainer clearfix colelem" id="u46273"><!-- horizontal box --><div class="MenuItem MenuItemWithSubMenu clearfix grpelem" id="u46274"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46276-4"><!-- content --><p>Adventure</p></div></div></li>
-          <li class="MenuItemContainer clearfix colelem" id="u46294"><!-- horizontal box --><div class="MenuItem MenuItemWithSubMenu clearfix grpelem" id="u46295"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46297-4"><!-- content --><p>Portraits</p></div></div></li>
+      <nav class="MenuBar clearfix" id="menuu49097"><!-- horizontal box -->
+       <div class="MenuItemContainer clearfix grpelem" id="u49098"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners shadow clearfix colelem" id="u49129" href="media.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49130-4"><!-- content --><p>Media</p></div></a>
+        <div class="SubMenu MenuLevel1 clearfix" id="u49099"><!-- vertical box -->
+         <ul class="SubMenuView clearfix colelem" id="u49100"><!-- vertical box -->
+          <li class="MenuItemContainer clearfix colelem" id="u49115"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u49118" href="media.html#panoramic"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49121-4"><!-- content --><p>Pano and VR</p></div></a></li>
+          <li class="MenuItemContainer clearfix colelem" id="u49108"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u49109" href="media.html#low-light"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49111-4"><!-- content --><p>Low Light</p></div></a></li>
+          <li class="MenuItemContainer clearfix colelem" id="u49101"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u49102" href="media.html#adventure"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49104-4"><!-- content --><p>Adventure</p></div></a></li>
+          <li class="MenuItemContainer clearfix colelem" id="u49122"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u49123" href="media.html#portraits"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49126-4"><!-- content --><p>Portraits</p></div></a></li>
          </ul>
         </div>
        </div>
       </nav>
-      <nav class="MenuBar clearfix" id="menuu46309"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem" id="u46310"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners shadow clearfix colelem" id="u46311" href="design.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46312-4"><!-- content --><p>Design</p></div></a>
+      <nav class="MenuBar clearfix" id="menuu49174"><!-- horizontal box -->
+       <div class="MenuItemContainer clearfix grpelem" id="u49175"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners shadow clearfix colelem" id="u49176" href="design.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49177-4"><!-- content --><p>Design</p></div></a>
        </div>
       </nav>
-      <nav class="MenuBar clearfix" id="menuu46317"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem" id="u46318"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners shadow clearfix colelem" id="u46342" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46344-4"><!-- content --><p>Home</p></div></a>
-        <div class="SubMenu MenuLevel1 clearfix" id="u46319"><!-- vertical box -->
-         <ul class="SubMenuView clearfix colelem" id="u46320"><!-- vertical box -->
-          <li class="MenuItemContainer clearfix colelem" id="u46328"><!-- horizontal box --><div class="MenuItem MenuItemWithSubMenu clearfix grpelem" id="u46329"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46330-4"><!-- content --><p>About Me</p></div></div></li>
-          <li class="MenuItemContainer clearfix colelem" id="u46321"><!-- horizontal box --><div class="MenuItem MenuItemWithSubMenu clearfix grpelem" id="u46322"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46324-4"><!-- content --><p>Skills</p></div></div></li>
-          <li class="MenuItemContainer clearfix colelem" id="u46335"><!-- horizontal box --><div class="MenuItem MenuItemWithSubMenu clearfix grpelem" id="u46336"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46338-4"><!-- content --><p>Latest Content</p></div></div></li>
+      <nav class="MenuBar clearfix" id="menuu49133"><!-- horizontal box -->
+       <div class="MenuItemContainer clearfix grpelem" id="u49134"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners shadow clearfix colelem" id="u49135" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49138-4"><!-- content --><p>Home</p></div></a>
+        <div class="SubMenu MenuLevel1 clearfix" id="u49139"><!-- vertical box -->
+         <ul class="SubMenuView clearfix colelem" id="u49140"><!-- vertical box -->
+          <li class="MenuItemContainer clearfix colelem" id="u49148"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u49149" href="index.html#about-me"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49151-4"><!-- content --><p>About Me</p></div></a></li>
+          <li class="MenuItemContainer clearfix colelem" id="u49155"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u49158" href="index.html#services"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49160-4"><!-- content --><p>Skills</p></div></a></li>
+          <li class="MenuItemContainer clearfix colelem" id="u49141"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u49142" href="index.html#latest"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49143-4"><!-- content --><p>Latest Content</p></div></a></li>
          </ul>
         </div>
        </div>
       </nav>
-      <nav class="MenuBar clearfix" id="menuu46301"><!-- horizontal box -->
-       <div class="MenuItemContainer clearfix grpelem" id="u46302"><!-- vertical box -->
-        <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners shadow clearfix colelem" id="u46305" href="mailto:Danno@Just4FunMedia.ca"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u46307-6"><!-- content --><p>Request<span id="u46307-2"> a </span>Quote</p></div></a>
+      <nav class="MenuBar clearfix" id="menuu49166"><!-- horizontal box -->
+       <div class="MenuItemContainer clearfix grpelem" id="u49167"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners shadow clearfix colelem" id="u49168" href="mailto:Danno@Just4FunMedia.ca"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u49171-6"><!-- content --><p>Request<span id="u49171-2"> a </span>Quote</p></div></a>
        </div>
       </nav>
      </div>
@@ -450,18 +706,9 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <p>&nbsp;</p>
      </div>
      <div class="clearfix grpelem" id="u32753"><!-- group -->
-      <div class="clearfix grpelem" id="ppu18559"><!-- column -->
-       <div class="clearfix colelem" id="pu18559"><!-- group -->
-        <div class="clip_frame grpelem" id="u18559" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="83" data-mu-ie-matrix-dy="-83"><!-- image -->
-         <img class="block" id="u18559_img" src="images/howell026-crop-u18559.jpg?crc=177141139" data-hidpi-src="images/howell026-crop-u18559_2x.jpg?crc=4200529453" alt="Aerial image of combine harvesting durum wheat from a field near Swift Current, Saskatchewan, Canada" width="667" height="500"/>
-        </div>
-        <div class="rgba-background clearfix grpelem" id="u18576-10"><!-- content -->
-         <p id="u18576">&nbsp;</p>
-         <h1 id="u18576-3">AGRICULTURAL ANALYSIS</h1>
-         <p id="u18576-4">&nbsp;</p>
-         <p id="u18576-6">Visual and IR (InfraRed) images can</p>
-         <p id="u18576-8">be captured with a VNIR camera to monitor crop health without disturbing the field.</p>
-        </div>
+      <div class="clearfix grpelem" id="pu18559"><!-- column -->
+       <div class="clip_frame colelem" id="u18559" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0,M12=-1,M21=1,M22=0,SizingMethod='auto expand')" data-mu-ie-matrix-dx="83" data-mu-ie-matrix-dy="-83"><!-- image -->
+        <img class="block" id="u18559_img" src="images/howell026-crop-u18559.jpg?crc=177141139" data-hidpi-src="images/howell026-crop-u18559_2x.jpg?crc=4200529453" alt="Aerial image of combine harvesting durum wheat from a field near Swift Current, Saskatchewan, Canada" width="667" height="500"/>
        </div>
        <div class="size_fixed colelem" id="u32663"><!-- custom html -->
         
@@ -485,18 +732,26 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
         <p id="u32443">&nbsp;</p>
         <h1 id="u32443-4"><span>SEE MORE WITH </span><span id="u32443-3">NDVI</span></h1>
        </div>
-       <div class="clearfix grpelem" id="u32546-13"><!-- content -->
-        <p id="u32546">&nbsp;</p>
-        <p id="u32546-11">The <span id="u32546-3">N</span>ormalized <span id="u32546-5">D</span>ifference <span id="u32546-7">V</span>egetation <span id="u32546-9">I</span>ndex is a graphical indicator based on InfraRed and Visual imagery to determine the density of vegetation.</p>
-       </div>
       </div>
      </div>
-    </div>
-    <nav class="MenuBar clearfix pinned-colelem" id="menuu33238"><!-- horizontal box -->
-     <div class="MenuItemContainer clearfix grpelem" id="u33239"><!-- vertical box -->
-      <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners shadow clearfix colelem" id="u33242" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u33243-8"><!-- content --><p><span id="u33243">Click HERE</span></p><p id="u33243-6"><span id="u33243-3">To Learn More about </span><span id="u33243-4">NDVI</span><span id="u33243-5"></span></p></div></a>
+     <nav class="MenuBar clearfix grpelem" id="menuu33238"><!-- horizontal box -->
+      <div class="MenuItemContainer clearfix grpelem" id="u33239"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu rounded-corners shadow clearfix colelem" id="u33242" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u33243-8"><!-- content --><p><span id="u33243">Click HERE</span></p><p id="u33243-6"><span id="u33243-3">To Learn More about </span><span id="u33243-4">NDVI</span><span id="u33243-5"></span></p></div></a>
+      </div>
+     </nav>
+     <div class="rgba-background clearfix grpelem" id="u18576-10"><!-- content -->
+      <p id="u18576">&nbsp;</p>
+      <h1 id="u18576-3">AGRICULTURAL ANALYSIS</h1>
+      <p id="u18576-4">&nbsp;</p>
+      <p id="u18576-6">Visual and IR (InfraRed) images can</p>
+      <p id="u18576-8">be captured with a VNIR camera to monitor crop health without disturbing the field.</p>
      </div>
-    </nav>
+     <div class="clearfix grpelem" id="u32546-13"><!-- content -->
+      <p id="u32546">&nbsp;</p>
+      <p id="u32546-11">The <span id="u32546-3">N</span>ormalized <span id="u32546-5">D</span>ifference <span id="u32546-7">V</span>egetation <span id="u32546-9">I</span>ndex is a graphical indicator based on InfraRed and Visual imagery to determine the density of vegetation.</p>
+     </div>
+    </div>
+    <a class="anchor_item colelem" id="surveying"></a>
     <div class="clearfix colelem" id="pu32756"><!-- group -->
      <div class="clip_frame grpelem" id="u32756"><!-- image -->
       <img class="block" id="u32756_img" src="images/ed-wilma_924%20zoom-crop-u32756.jpg?crc=4268189502" data-hidpi-src="images/ed-wilma_924%20zoom-crop-u32756_2x.jpg?crc=3868548961" alt="Inspecting shingles on the roof of a residential building using a multirotor drone ( Unmanned Aerial Vehicle )" width="453" height="528"/>
@@ -505,16 +760,8 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
       <img class="position_content" id="u33065_img" src="images/er1_150ft.png?crc=273277845" data-hidpi-src="images/er1_150ft_2x.png?crc=4197508677" alt="Inspecting asphalt roadways and intersections using a remotely piloted Unmanned Aerial Vehicle" width="587" height="273"/>
      </div>
      <div class="clearfix grpelem" id="u32758"><!-- group -->
-      <div class="clearfix grpelem" id="pu32762"><!-- group -->
-       <div class="clip_frame grpelem" id="u32762"><!-- image -->
-        <img class="block" id="u32762_img" src="images/dji_0087_edited-1-crop-u32762.jpg?crc=185622545" data-hidpi-src="images/dji_0087_edited-1-crop-u32762_2x.jpg?crc=526965284" alt="Stunning areial view of a sunset over a lake with two boats cruising on the lake" width="720" height="422"/>
-       </div>
-       <div class="rgba-background clearfix grpelem" id="u32761-8"><!-- content -->
-        <p id="u32761">&nbsp;</p>
-        <h1 id="u32761-3">AERIAL PHOTOGRAPHY</h1>
-        <p id="u32761-4">&nbsp;</p>
-        <p id="u32761-6">Using a Sony EXMOR 12MP camera to capture stunning aerial photographs and videos.</p>
-       </div>
+      <div class="clip_frame grpelem" id="u32762"><!-- image -->
+       <img class="block" id="u32762_img" src="images/dji_0087_edited-1-crop-u32762.jpg?crc=185622545" data-hidpi-src="images/dji_0087_edited-1-crop-u32762_2x.jpg?crc=526965284" alt="Stunning areial view of a sunset over a lake with two boats cruising on the lake" width="720" height="422"/>
       </div>
       <div class="clip_frame grpelem" id="u32759"><!-- image -->
        <img class="block" id="u32759_img" src="images/dennis015-crop-u32759.jpg?crc=3995130246" data-hidpi-src="images/dennis015-crop-u32759_2x.jpg?crc=3967833091" alt="Aerial drone photo of a rural residential yard" width="500" height="421"/>
@@ -536,13 +783,6 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
        </div>
        <div class="clip_frame grpelem" id="u32777"><!-- image -->
         <img class="block" id="u32777_img" src="images/screen%20shot%202016-09-06%20at%2042241%20pm-crop-u32777.jpg?crc=289470302" data-hidpi-src="images/screen%20shot%202016-09-06%20at%2042241%20pm-crop-u32777_2x.jpg?crc=227352356" alt="3D (Three Dimensional) Virtural Reality drone map of a farm yard" width="715" height="423"/>
-       </div>
-       <div class="rgba-background clearfix grpelem" id="u32768-9"><!-- content -->
-        <p id="u32768">&nbsp;</p>
-        <h1 id="u32768-3">SURVEYING</h1>
-        <p id="u32768-4">&nbsp;</p>
-        <p id="u32768-6">Photographs can be stitched into a 2D, 3D, or topographical maps, with resolutions higher than 1/4&quot; per pixel.</p>
-        <p id="u32768-7">&nbsp;</p>
        </div>
       </div>
       <div class="clearfix colelem" id="pu32767-4"><!-- group -->
@@ -570,45 +810,75 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div class="clip_frame clearfix grpelem" id="u33055"><!-- image -->
       <img class="position_content" id="u33055_img" src="images/sept1016_029.jpg?crc=3765814834" data-hidpi-src="images/sept1016_029_2x.jpg?crc=298470763" alt="Panoramaic aerial drone image of a wedding setup in a farm yard near Regina Saskatchewan Canada" title="Panoramic Image of a Wedding" width="735" height="242"/>
      </div>
+     <div class="rgba-background clearfix grpelem" id="u32761-8"><!-- content -->
+      <p id="u32761">&nbsp;</p>
+      <h1 id="u32761-3">AERIAL PHOTOGRAPHY</h1>
+      <p id="u32761-4">&nbsp;</p>
+      <p id="u32761-6">Using a Sony EXMOR 12MP camera to capture stunning aerial photographs and videos.</p>
+     </div>
+     <div class="rgba-background clearfix grpelem" id="u33165-8"><!-- content -->
+      <p id="u33165">&nbsp;</p>
+      <h1 id="u33165-3">AERIAL INSPECTIONS</h1>
+      <p id="u33165-4">&nbsp;</p>
+      <p id="u33165-6">UAV's can be utilized to inspect shingles, roadways, and map&nbsp; submerged objects in waterways.</p>
+     </div>
+     <div class="rgba-background clearfix grpelem" id="u32768-9"><!-- content -->
+      <p id="u32768">&nbsp;</p>
+      <h1 id="u32768-3">SURVEYING</h1>
+      <p id="u32768-4">&nbsp;</p>
+      <p id="u32768-6">Photographs can be stitched into a 2D, 3D, or topographical maps, with resolutions higher than 1/4&quot; per pixel.</p>
+      <p id="u32768-7">&nbsp;</p>
+     </div>
     </div>
-    <div class="verticalspacer" data-offset-top="3653" data-content-above-spacer="4038" data-content-below-spacer="134"></div>
-    <a class="anchor_item colelem" id="surveying"></a>
-    <div class="clearfix colelem" id="u32784-3"><!-- content -->
-     <p>&nbsp;</p>
-    </div>
-    <div class="rgba-background clearfix colelem" id="u33165-8"><!-- content -->
-     <p id="u33165">&nbsp;</p>
-     <h1 id="u33165-3">AERIAL INSPECTIONS</h1>
-     <p id="u33165-4">&nbsp;</p>
-     <p id="u33165-6">UAV's can be utilized to inspect shingles, roadways, and map&nbsp; submerged objects in waterways.</p>
+    <div class="browser_width colelem" id="u52521-bw">
+     <div class="rgba-background" id="u52521"><!-- group -->
+      <div class="clearfix" id="u52521_align_to_page">
+       <div class="clearfix grpelem" id="u57689"><!-- group -->
+        <div class="clearfix grpelem" id="u52545-4"><!-- content -->
+         <p>Contact: info@DannoPeters.ca</p>
+        </div>
+        <div class="clearfix grpelem" id="u57685"><!-- group -->
+         <div class="clip_frame grpelem" id="u52525"><!-- image -->
+          <img class="block" id="u52525_img" src="images/dannopeters_logo.png?crc=3938181516" data-hidpi-src="images/dannopeters_logo_2x.png?crc=111906925" alt="" width="110" height="99"/>
+         </div>
+         <div class="clearfix grpelem" id="u52537-4"><!-- content -->
+          <p>DannoPeters.ca</p>
+         </div>
+        </div>
+        <div class="clearfix grpelem" id="u52541-4"><!-- content -->
+         <p>©DannoPeters.ca 2012-2017</p>
+        </div>
+       </div>
+      </div>
+     </div>
     </div>
    </div>
   </div>
   <div class="preload_images">
-   <img class="preload" src="images/unavailable-u43815-unavailable-fr.png?crc=138454497" alt=""/>
-   <img class="preload" src="images/unavailable-u43815-unavailable-fr_2x.png?crc=4252820774" alt=""/>
-   <img class="preload" src="images/off_rollover-u43815-off-r-fr.png?crc=3892182243" alt=""/>
-   <img class="preload" src="images/off_rollover-u43815-off-r-fr_2x.png?crc=4014370087" alt=""/>
-   <img class="preload" src="images/off_mousedown-u43815-off-m-fr.png?crc=3917414616" alt=""/>
-   <img class="preload" src="images/off_mousedown-u43815-off-m-fr_2x.png?crc=445293902" alt=""/>
-   <img class="preload" src="images/on-u43815-on-fr.png?crc=3975722076" alt=""/>
-   <img class="preload" src="images/on-u43815-on-fr_2x.png?crc=68976034" alt=""/>
-   <img class="preload" src="images/on_rollover-u43815-on-r-fr.png?crc=4214714208" alt=""/>
-   <img class="preload" src="images/on_rollover-u43815-on-r-fr_2x.png?crc=169171134" alt=""/>
-   <img class="preload" src="images/on_mousedown-u43815-on-m-fr.png?crc=207732060" alt=""/>
-   <img class="preload" src="images/on_mousedown-u43815-on-m-fr_2x.png?crc=4231382594" alt=""/>
-   <img class="preload" src="images/u46427-r.png?crc=4192608712" alt=""/>
-   <img class="preload" src="images/u46427-r_2x.png?crc=3957363303" alt=""/>
-   <img class="preload" src="images/u46427-m.png?crc=4192608712" alt=""/>
-   <img class="preload" src="images/u46427-m_2x.png?crc=3957363303" alt=""/>
-   <img class="preload" src="images/u46382-r.png?crc=3775538216" alt=""/>
-   <img class="preload" src="images/u46382-r_2x.png?crc=3831005878" alt=""/>
-   <img class="preload" src="images/u46382-m.png?crc=3775538216" alt=""/>
-   <img class="preload" src="images/u46382-m_2x.png?crc=3831005878" alt=""/>
-   <img class="preload" src="images/u46429-r.png?crc=387537840" alt=""/>
-   <img class="preload" src="images/u46429-r_2x.png?crc=3883543431" alt=""/>
-   <img class="preload" src="images/u46429-m.png?crc=387537840" alt=""/>
-   <img class="preload" src="images/u46429-m_2x.png?crc=3883543431" alt=""/>
+   <img class="preload" src="images/unavailable-u49088-unavailable-fr.png?crc=4073077407" alt=""/>
+   <img class="preload" src="images/unavailable-u49088-unavailable-fr_2x.png?crc=3887090482" alt=""/>
+   <img class="preload" src="images/off_rollover-u49088-off-r-fr.png?crc=329157455" alt=""/>
+   <img class="preload" src="images/off_rollover-u49088-off-r-fr_2x.png?crc=374389402" alt=""/>
+   <img class="preload" src="images/off_mousedown-u49088-off-m-fr.png?crc=4224052066" alt=""/>
+   <img class="preload" src="images/off_mousedown-u49088-off-m-fr_2x.png?crc=332219046" alt=""/>
+   <img class="preload" src="images/on-u49088-on-fr.png?crc=4227417253" alt=""/>
+   <img class="preload" src="images/on-u49088-on-fr_2x.png?crc=3812858068" alt=""/>
+   <img class="preload" src="images/on_rollover-u49088-on-r-fr.png?crc=4058860863" alt=""/>
+   <img class="preload" src="images/on_rollover-u49088-on-r-fr_2x.png?crc=4078907173" alt=""/>
+   <img class="preload" src="images/on_mousedown-u49088-on-m-fr.png?crc=199738993" alt=""/>
+   <img class="preload" src="images/on_mousedown-u49088-on-m-fr_2x.png?crc=4235750524" alt=""/>
+   <img class="preload" src="images/u49164-r.png?crc=438044963" alt=""/>
+   <img class="preload" src="images/u49164-r_2x.png?crc=3915896749" alt=""/>
+   <img class="preload" src="images/u49164-m.png?crc=438044963" alt=""/>
+   <img class="preload" src="images/u49164-m_2x.png?crc=3915896749" alt=""/>
+   <img class="preload" src="images/u49162-r.png?crc=511694484" alt=""/>
+   <img class="preload" src="images/u49162-r_2x.png?crc=352487613" alt=""/>
+   <img class="preload" src="images/u49162-m.png?crc=511694484" alt=""/>
+   <img class="preload" src="images/u49162-m_2x.png?crc=352487613" alt=""/>
+   <img class="preload" src="images/u49095-r.png?crc=4185164780" alt=""/>
+   <img class="preload" src="images/u49095-r_2x.png?crc=4065340133" alt=""/>
+   <img class="preload" src="images/u49095-m.png?crc=4185164780" alt=""/>
+   <img class="preload" src="images/u49095-m_2x.png?crc=4065340133" alt=""/>
   </div>
   <!-- JS includes -->
   <script type="text/javascript">
@@ -630,9 +900,8 @@ Muse.Utils.detectScreenResolution();/* HiDPI screens */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
-Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.initWidget('#pamphletu32342', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'loose',event:'mouseover',deactivationEvent:'mouseout_both',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu32342 */
-Muse.Utils.initWidget('#pamphletu43810', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'loose',event:'mouseover',deactivationEvent:'mouseout_trigger',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu43810 */
+Muse.Utils.initWidget('#pamphletu49081', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'loose',event:'mouseover',deactivationEvent:'mouseout_trigger',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,shuffle:false,enableSwipe:true,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false}); });/* #pamphletu49081 */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
