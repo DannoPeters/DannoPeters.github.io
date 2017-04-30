@@ -1,14 +1,14 @@
-<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="false" exportTarget="other" domain="DannoPeters.ca" resolutions="1x,2x" timestamp="1493568571881">
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="false" exportTarget="other" domain="DannoPeters.ca" resolutions="1x,2x" timestamp="1493569532603">
   <folder name="css">
     <file name="site_global.css" crc="3856229311"/>
     <file name="master_a-master.css" crc="4100395396" ref="index:ndvi---danno-peters:media---danno-peters:drone-services---danno-peters:design---danno-peters"/>
-    <file name="index.css" crc="3924589979" ref="index"/>
-    <file name="iefonts_index.css" crc="4240624531" ref="index"/>
-    <file name="ndvi---danno-peters.css" crc="4147391348" ref="ndvi---danno-peters"/>
-    <file name="iefonts_ndvi---danno-peters.css" crc="4153133595" ref="ndvi---danno-peters"/>
+    <file name="index.css" crc="3813485522" ref="index"/>
+    <file name="iefonts_index.css" crc="3804399610" ref="index"/>
+    <file name="ndvi---danno-peters.css" crc="3937881453" ref="ndvi---danno-peters"/>
+    <file name="iefonts_ndvi---danno-peters.css" crc="357562272" ref="ndvi---danno-peters"/>
     <file name="media---danno-peters.css" crc="93006086" ref="media---danno-peters"/>
     <file name="iefonts_media---danno-peters.css" crc="288402533" ref="media---danno-peters"/>
-    <file name="drone-services---danno-peters.css" crc="4205633626" ref="drone-services---danno-peters"/>
+    <file name="drone-services---danno-peters.css" crc="4204895936" ref="drone-services---danno-peters"/>
     <file name="iefonts_drone-services---danno-peters.css" crc="4156386381" ref="drone-services---danno-peters"/>
     <file name="design---danno-peters.css" crc="469553693" ref="design---danno-peters"/>
     <file name="iefonts_design---danno-peters.css" crc="177630293" ref="design---danno-peters"/>
@@ -50,15 +50,15 @@
     <file name="u18558-6.png" crc="3944948423" ref="drone-services---danno-peters"/>
     <file name="u18558-6_2x.png" crc="4080491462" ref="drone-services---danno-peters"/>
     <file name="maple_leaf.png" crc="370734199" seo="true" ref="drone-services---danno-peters:ndvi---danno-peters">
+      <caption webpage="drone-services---danno-peters" alt=""/>
       <caption webpage="ndvi" alt=""/>
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="drone-services---danno-peters" alt=""/>
       <caption webpage="drone-services" alt=""/>
     </file>
     <file name="maple_leaf_2x.png" crc="59162406" seo="true" ref="drone-services---danno-peters:ndvi---danno-peters">
+      <caption webpage="drone-services---danno-peters" alt=""/>
       <caption webpage="ndvi" alt=""/>
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="drone-services---danno-peters" alt=""/>
       <caption webpage="drone-services" alt=""/>
     </file>
     <file name="off-u49088-fr.png" crc="4127581022" ref="drone-services---danno-peters"/>
@@ -161,11 +161,11 @@
       <caption webpage="drone-services" alt="comparision showing low resolution, low depth Google Maps satelite imagery"/>
       <caption webpage="drone-services---danno-peters" alt="comparision showing low resolution, low depth Google Maps satelite imagery"/>
     </file>
-    <file name="metheral farm0016-crop-u32769.png" crc="95318176" seo="true" ref="drone-services---danno-peters">
+    <file name="metheral farm0016-crop-u32769.png" crc="80028341" seo="true" ref="drone-services---danno-peters">
       <caption webpage="drone-services" alt="Zoomed in aerial image showing details down to a quarter inch resolution"/>
       <caption webpage="drone-services---danno-peters" alt="Zoomed in aerial image showing details down to a quarter inch resolution"/>
     </file>
-    <file name="metheral farm0016-crop-u32769_2x.png" crc="4281584620" seo="true" ref="drone-services---danno-peters">
+    <file name="metheral farm0016-crop-u32769_2x.png" crc="4162041958" seo="true" ref="drone-services---danno-peters">
       <caption webpage="drone-services" alt="Zoomed in aerial image showing details down to a quarter inch resolution"/>
       <caption webpage="drone-services---danno-peters" alt="Zoomed in aerial image showing details down to a quarter inch resolution"/>
     </file>
@@ -665,9 +665,9 @@
     <file name="ndvi---danno-peters-favicon.ico" crc="3865049730" ref="ndvi---danno-peters"/>
     <file name="media---danno-peters-favicon.ico" crc="3865049730" ref="media---danno-peters"/>
   </folder>
-  <file name="index.html" crc="4070188342" seo="true" mt="1493568524519" redirect="true"/>
-  <file name="drone-services---danno-peters.html" crc="4174386090" seo="true" mt="1493568524519" redirect="true"/>
-  <file name="design---danno-peters.html" crc="3844591944" seo="true" mt="1493568524519" redirect="true"/>
-  <file name="ndvi---danno-peters.html" crc="29389960" seo="true" mt="1493568524519" redirect="true"/>
-  <file name="media---danno-peters.html" crc="4124413553" seo="true" mt="1493568524519" redirect="true"/>
+  <file name="index.html" crc="4118543199" seo="true" mt="1493569232969" redirect="true"/>
+  <file name="drone-services---danno-peters.html" crc="4008983870" seo="true" mt="1493569466911" redirect="true"/>
+  <file name="design---danno-peters.html" crc="33497923" seo="true" mt="1493569232969" redirect="true"/>
+  <file name="ndvi---danno-peters.html" crc="434159501" seo="true" mt="1493569450162" redirect="true"/>
+  <file name="media---danno-peters.html" crc="3882954985" seo="true" mt="1493569232969" redirect="true"/>
 </manifest>
