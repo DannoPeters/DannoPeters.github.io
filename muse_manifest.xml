@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="false" exportTarget="other" domain="DannoPeters.ca" resolutions="1x,2x" timestamp="1493569532603">
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="false" exportTarget="other" domain="DannoPeters.ca" resolutions="1x,2x" timestamp="1493609566904">
   <folder name="css">
     <file name="site_global.css" crc="3856229311"/>
     <file name="master_a-master.css" crc="4100395396" ref="index:ndvi---danno-peters:media---danno-peters:drone-services---danno-peters:design---danno-peters"/>
@@ -6,7 +6,7 @@
     <file name="iefonts_index.css" crc="3804399610" ref="index"/>
     <file name="ndvi---danno-peters.css" crc="3937881453" ref="ndvi---danno-peters"/>
     <file name="iefonts_ndvi---danno-peters.css" crc="357562272" ref="ndvi---danno-peters"/>
-    <file name="media---danno-peters.css" crc="93006086" ref="media---danno-peters"/>
+    <file name="media---danno-peters.css" crc="4137242089" ref="media---danno-peters"/>
     <file name="iefonts_media---danno-peters.css" crc="288402533" ref="media---danno-peters"/>
     <file name="drone-services---danno-peters.css" crc="4204895936" ref="drone-services---danno-peters"/>
     <file name="iefonts_drone-services---danno-peters.css" crc="4156386381" ref="drone-services---danno-peters"/>
@@ -32,7 +32,7 @@
     <file name="musewpslideshow.js" crc="4244742588" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
     <file name="jquery.museoverlay.js" crc="432750910" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
     <file name="touchswipe.js" crc="3912873526" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="drone-services---danno-peters"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="drone-services---danno-peters:media---danno-peters"/>
     <file name="jquery.musemenu.js" crc="38860304" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
     <file name="html5shiv.js" crc="4241844378" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
     <file name="require.js" crc="4234670167" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
@@ -61,20 +61,20 @@
       <caption webpage="ndvi---danno-peters" alt=""/>
       <caption webpage="drone-services" alt=""/>
     </file>
-    <file name="off-u49088-fr.png" crc="4127581022" ref="drone-services---danno-peters"/>
-    <file name="off-u49088-fr_2x.png" crc="4045063771" ref="drone-services---danno-peters"/>
-    <file name="unavailable-u49088-unavailable-fr.png" crc="4073077407" ref="drone-services---danno-peters"/>
-    <file name="unavailable-u49088-unavailable-fr_2x.png" crc="3887090482" ref="drone-services---danno-peters"/>
-    <file name="off_rollover-u49088-off-r-fr.png" crc="329157455" ref="drone-services---danno-peters"/>
-    <file name="off_rollover-u49088-off-r-fr_2x.png" crc="374389402" ref="drone-services---danno-peters"/>
-    <file name="off_mousedown-u49088-off-m-fr.png" crc="4224052066" ref="drone-services---danno-peters"/>
-    <file name="off_mousedown-u49088-off-m-fr_2x.png" crc="332219046" ref="drone-services---danno-peters"/>
-    <file name="on-u49088-on-fr.png" crc="4227417253" ref="drone-services---danno-peters"/>
-    <file name="on-u49088-on-fr_2x.png" crc="3812858068" ref="drone-services---danno-peters"/>
-    <file name="on_rollover-u49088-on-r-fr.png" crc="4058860863" ref="drone-services---danno-peters"/>
-    <file name="on_rollover-u49088-on-r-fr_2x.png" crc="4078907173" ref="drone-services---danno-peters"/>
-    <file name="on_mousedown-u49088-on-m-fr.png" crc="199738993" ref="drone-services---danno-peters"/>
-    <file name="on_mousedown-u49088-on-m-fr_2x.png" crc="4235750524" ref="drone-services---danno-peters"/>
+    <file name="off-u49088-fr.png" crc="4127581022" ref="drone-services---danno-peters:media---danno-peters"/>
+    <file name="off-u49088-fr_2x.png" crc="4045063771" ref="drone-services---danno-peters:media---danno-peters"/>
+    <file name="unavailable-u49088-unavailable-fr.png" crc="4073077407" ref="drone-services---danno-peters:media---danno-peters"/>
+    <file name="unavailable-u49088-unavailable-fr_2x.png" crc="3887090482" ref="drone-services---danno-peters:media---danno-peters"/>
+    <file name="off_rollover-u49088-off-r-fr.png" crc="329157455" ref="drone-services---danno-peters:media---danno-peters"/>
+    <file name="off_rollover-u49088-off-r-fr_2x.png" crc="374389402" ref="drone-services---danno-peters:media---danno-peters"/>
+    <file name="off_mousedown-u49088-off-m-fr.png" crc="4224052066" ref="drone-services---danno-peters:media---danno-peters"/>
+    <file name="off_mousedown-u49088-off-m-fr_2x.png" crc="332219046" ref="drone-services---danno-peters:media---danno-peters"/>
+    <file name="on-u49088-on-fr.png" crc="4227417253" ref="drone-services---danno-peters:media---danno-peters"/>
+    <file name="on-u49088-on-fr_2x.png" crc="3812858068" ref="drone-services---danno-peters:media---danno-peters"/>
+    <file name="on_rollover-u49088-on-r-fr.png" crc="4058860863" ref="drone-services---danno-peters:media---danno-peters"/>
+    <file name="on_rollover-u49088-on-r-fr_2x.png" crc="4078907173" ref="drone-services---danno-peters:media---danno-peters"/>
+    <file name="on_mousedown-u49088-on-m-fr.png" crc="199738993" ref="drone-services---danno-peters:media---danno-peters"/>
+    <file name="on_mousedown-u49088-on-m-fr_2x.png" crc="4235750524" ref="drone-services---danno-peters:media---danno-peters"/>
     <file name="u49164.png" crc="94237757" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
     <file name="u49164_2x.png" crc="369365161" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
     <file name="u49164-r.png" crc="438044963" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
@@ -669,5 +669,5 @@
   <file name="drone-services---danno-peters.html" crc="4008983870" seo="true" mt="1493569466911" redirect="true"/>
   <file name="design---danno-peters.html" crc="33497923" seo="true" mt="1493569232969" redirect="true"/>
   <file name="ndvi---danno-peters.html" crc="434159501" seo="true" mt="1493569450162" redirect="true"/>
-  <file name="media---danno-peters.html" crc="3882954985" seo="true" mt="1493569232969" redirect="true"/>
+  <file name="media---danno-peters.html" crc="3890790735" seo="true" mt="1493609395747" redirect="true"/>
 </manifest>
