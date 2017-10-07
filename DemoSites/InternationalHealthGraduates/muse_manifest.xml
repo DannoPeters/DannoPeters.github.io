@@ -1,33 +1,35 @@
-<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="DannoPeters.ca/DemoSites/InternationalHealthGraduates" resolutions="1x" timestamp="1507358963060">
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="DannoPeters.ca/InternationalHealthGraduates" resolutions="1x" timestamp="1507395543667">
   <folder name="css">
-    <file name="site_global.css" crc="190494454"/>
-    <file name="master_a-master.css" crc="4105390804" ref="book-courses:corses-old:index"/>
-    <file name="book-courses.css" crc="4136599827" ref="book-courses"/>
-    <file name="corses-old.css" crc="60691505" ref="corses-old"/>
-    <file name="index.css" crc="216078290" ref="index"/>
+    <file name="site_global.css" crc="4007118472"/>
+    <file name="master_a-master.css" crc="154193001" ref="corses-old:index:health-graduate-consultants---courses"/>
+    <file name="corses-old.css" crc="89344503" ref="corses-old"/>
+    <file name="index.css" crc="4105961450" ref="index"/>
     <file name="iefonts_index.css" crc="264670307" ref="index"/>
+    <file name="health-graduate-consultants---courses.css" crc="4186163424" ref="health-graduate-consultants---courses"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:book-courses:corses-old"/>
-    <file name="museutils.js" crc="17924269" ref="index:book-courses:corses-old"/>
-    <file name="whatinput.js" crc="86476730" ref="index:book-courses:corses-old"/>
-    <file name="museconfig.js" crc="278381782" ref="index:book-courses:corses-old"/>
-    <file name="jquery.watch.js" crc="4240030481" ref="index:book-courses:corses-old"/>
-    <file name="jquery.musemenu.js" crc="4286030528" ref="index:book-courses:corses-old"/>
-    <file name="webpro.js" crc="416662029" ref="index:book-courses:corses-old"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:corses-old:health-graduate-consultants---courses"/>
+    <file name="museutils.js" crc="17924269" ref="index:corses-old:health-graduate-consultants---courses"/>
+    <file name="whatinput.js" crc="86476730" ref="index:corses-old:health-graduate-consultants---courses"/>
+    <file name="museconfig.js" crc="278381782" ref="index:corses-old:health-graduate-consultants---courses"/>
+    <file name="jquery.watch.js" crc="4240030481" ref="index:corses-old:health-graduate-consultants---courses"/>
+    <file name="jquery.musemenu.js" crc="4286030528" ref="index:corses-old:health-graduate-consultants---courses"/>
+    <file name="webpro.js" crc="416662029" ref="index:corses-old:health-graduate-consultants---courses"/>
     <file name="form_check.php" crc="234386740" ref="index"/>
     <file name="form_process.php" crc="281765392" ref="index"/>
     <file name="form-u1378.php" crc="385512642" ref="index"/>
-    <file name="musewpslideshow.js" crc="4034900702" ref="index:book-courses:corses-old"/>
-    <file name="jquery.museoverlay.js" crc="528673841" ref="index:book-courses:corses-old"/>
-    <file name="touchswipe.js" crc="432264157" ref="index:book-courses:corses-old"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:book-courses:corses-old"/>
-    <file name="require.js" crc="3861931657" ref="index:book-courses:corses-old"/>
+    <file name="musewpslideshow.js" crc="4034900702" ref="index:corses-old:health-graduate-consultants---courses"/>
+    <file name="jquery.museoverlay.js" crc="528673841" ref="index:corses-old:health-graduate-consultants---courses"/>
+    <file name="touchswipe.js" crc="432264157" ref="index:corses-old:health-graduate-consultants---courses"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:corses-old:health-graduate-consultants---courses"/>
+    <file name="require.js" crc="3861931657" ref="index:corses-old:health-graduate-consultants---courses"/>
     <file name="musewpdisclosure.js" crc="3809204180" ref="corses-old"/>
   </folder>
   <folder name="images">
-    <file name="doctors-jobs-crop-u921.jpg" crc="3930271683" seo="true" ref="index:book-courses:corses-old">
+    <file name="doctors-jobs-crop-u921.jpg" crc="3930271683" seo="true" ref="index:corses-old:health-graduate-consultants---courses">
       <caption webpage="index" alt=""/>
+      <caption webpage="international-health-graduates---courses" alt=""/>
+      <caption webpage="health-graduate-consultants---courses" alt=""/>
       <caption webpage="book-courses" alt=""/>
       <caption webpage="corses-old" alt=""/>
     </file>
@@ -40,8 +42,14 @@
     <file name="img-crop-u897.jpg" crc="4124618682" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="favicon.ico" crc="383068652" ref="index"/>
+    <file name="health graduate consultants.png" crc="4175327759" seo="true" ref="index:health-graduate-consultants---courses:corses-old">
+      <caption webpage="index" alt=""/>
+      <caption webpage="health-graduate-consultants---courses" alt=""/>
+      <caption webpage="corses-old" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="219990759" seo="true" mt="1507358953633" redirect="true"/>
-  <file name="book-courses.html" crc="3764522577" seo="true" mt="1507358769369" redirect="true"/>
-  <file name="corses-old.html" crc="4192205291" seo="true" mt="1507358769369" redirect="true"/>
+  <file name="index.html" crc="4071880609" seo="true" mt="1507395498779" redirect="true"/>
+  <file name="corses-old.html" crc="4081763955" seo="true" mt="1507395498779" redirect="true"/>
+  <file name="health-graduate-consultants---courses.html" crc="203252583" seo="true" mt="1507395498779" redirect="true"/>
 </manifest>
