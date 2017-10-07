@@ -31,7 +31,7 @@ $form = array(
 		'to' => 'InternationalHealthGraduates@Gmail.com'
 	),
 	'recaptcha2' => array(
-		'private_key' => 'null'
+		'private_key' => '6LcRhjMUAAAAAG1BYvGDcu8EczO7UVyPREqRPOX_'
 	),
 	'fields' => array(
 		'Email' => array(

@@ -1,4 +1,4 @@
-<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="DannoPeters.ca/InternationalHealthGraduates" resolutions="1x" timestamp="1507356859913">
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="DannoPeters.ca/InternationalHealthGraduates" resolutions="1x" timestamp="1507357148565">
   <folder name="css">
     <file name="site_global.css" crc="4261329740"/>
     <file name="master_a-master.css" crc="273934972" ref="book-courses:corses-old:index"/>
@@ -17,7 +17,7 @@
     <file name="webpro.js" crc="416662029" ref="index:book-courses:corses-old"/>
     <file name="form_check.php" crc="234386740" ref="index"/>
     <file name="form_process.php" crc="281765392" ref="index"/>
-    <file name="form-u1378.php" crc="3919302226" ref="index"/>
+    <file name="form-u1378.php" crc="385512642" ref="index"/>
     <file name="musewpslideshow.js" crc="4034900702" ref="index:book-courses:corses-old"/>
     <file name="jquery.museoverlay.js" crc="528673841" ref="index:book-courses:corses-old"/>
     <file name="touchswipe.js" crc="432264157" ref="index:book-courses:corses-old"/>
@@ -41,7 +41,7 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="493131323" seo="true" mt="1507356565542" redirect="true"/>
+  <file name="index.html" crc="3965757288" seo="true" mt="1507357129258" redirect="true"/>
   <file name="book-courses.html" crc="139291642" seo="true" mt="1507355762143" redirect="true"/>
   <file name="corses-old.html" crc="509933759" seo="true" mt="1507355762143" redirect="true"/>
 </manifest>

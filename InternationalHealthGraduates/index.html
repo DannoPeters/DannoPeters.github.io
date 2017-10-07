@@ -36,10 +36,12 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <script type="text/javascript">
    var muReCAPTCHA2Instances = {};
 var muReCAPTCHA2OnloadCallback = function() {
-	muReCAPTCHA2Instances['widgetu1619'] = grecaptcha.render('widgetu1619_recaptcha2', {"type":"image","size":"normal","theme":"light","sitekey":null});
+	muReCAPTCHA2Instances['widgetu1619'] = grecaptcha.render('widgetu1619_recaptcha2', {"type":"image","size":"normal","theme":"light","sitekey":"6LcRhjMUAAAAAKXuoMpNy2qKga1MHZC2Ud-x7YR0"});
 };
 </script>
-   </head>
+    <!--custom head HTML-->
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+ </head>
  <body>
 
   <div class="clearfix borderbox" id="page"><!-- group -->
@@ -300,7 +302,6 @@ Muse.Utils.initWidget('#pamphletu531', ['#bp_infinity'], function(elem) { return
 Muse.Utils.fullPage('#page');/* 100% height page */
 Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
-if (confirm('The reCAPTCHA 2.0 public and private keys are invalid or missing. Please provide valid public and private keys otherwise reCAPTCHA 2.0 validation will not work. Click OK to learn more.')) window.location = 'http://www.adobe.com/go/muse_recaptcha2_keys_learn_more';/* warning message */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 
 </script>
