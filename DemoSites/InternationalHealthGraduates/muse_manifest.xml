@@ -1,10 +1,10 @@
-<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="DannoPeters.ca/InternationalHealthGraduates" resolutions="1x" timestamp="1507357773543">
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="DannoPeters.ca/DemoSites/InternationalHealthGraduates" resolutions="1x" timestamp="1507358493592">
   <folder name="css">
     <file name="site_global.css" crc="190494454"/>
-    <file name="master_a-master.css" crc="4283717075" ref="book-courses:corses-old:index"/>
-    <file name="book-courses.css" crc="3792148986" ref="book-courses"/>
-    <file name="corses-old.css" crc="426852284" ref="corses-old"/>
-    <file name="index.css" crc="201881491" ref="index"/>
+    <file name="master_a-master.css" crc="3916965642" ref="book-courses:corses-old:index"/>
+    <file name="book-courses.css" crc="4136599827" ref="book-courses"/>
+    <file name="corses-old.css" crc="60691505" ref="corses-old"/>
+    <file name="index.css" crc="397135005" ref="index"/>
     <file name="iefonts_index.css" crc="264670307" ref="index"/>
   </folder>
   <folder name="scripts">
@@ -41,7 +41,7 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="301957690" seo="true" mt="1507357695437" redirect="true"/>
-  <file name="book-courses.html" crc="457977945" seo="true" mt="1507357695437" redirect="true"/>
-  <file name="corses-old.html" crc="4171465391" seo="true" mt="1507357695437" redirect="true"/>
+  <file name="index.html" crc="333297697" seo="true" mt="1507358475159" redirect="true"/>
+  <file name="book-courses.html" crc="4079631827" seo="true" mt="1507358475159" redirect="true"/>
+  <file name="corses-old.html" crc="212210512" seo="true" mt="1507358475159" redirect="true"/>
 </manifest>
