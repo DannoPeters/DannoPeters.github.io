@@ -1,11 +1,11 @@
-<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="DannoPeters.ca/InternationalHealthGraduates" resolutions="1x" timestamp="1507395543667">
+<manifest alg="2" build="2017.1.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="DannoPeters.ca/InternationalHealthGraduates" resolutions="1x" timestamp="1507395949690">
   <folder name="css">
     <file name="site_global.css" crc="4007118472"/>
-    <file name="master_a-master.css" crc="154193001" ref="corses-old:index:health-graduate-consultants---courses"/>
+    <file name="master_a-master.css" crc="126574599" ref="corses-old:index:health-graduate-consultants---courses"/>
     <file name="corses-old.css" crc="89344503" ref="corses-old"/>
-    <file name="index.css" crc="4105961450" ref="index"/>
+    <file name="index.css" crc="269254651" ref="index"/>
     <file name="iefonts_index.css" crc="264670307" ref="index"/>
-    <file name="health-graduate-consultants---courses.css" crc="4186163424" ref="health-graduate-consultants---courses"/>
+    <file name="health-graduate-consultants---courses.css" crc="3821424397" ref="health-graduate-consultants---courses"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:corses-old:health-graduate-consultants---courses"/>
@@ -29,12 +29,9 @@
     <file name="doctors-jobs-crop-u921.jpg" crc="3930271683" seo="true" ref="index:corses-old:health-graduate-consultants---courses">
       <caption webpage="index" alt=""/>
       <caption webpage="international-health-graduates---courses" alt=""/>
-      <caption webpage="health-graduate-consultants---courses" alt=""/>
       <caption webpage="book-courses" alt=""/>
+      <caption webpage="health-graduate-consultants---courses" alt=""/>
       <caption webpage="corses-old" alt=""/>
-    </file>
-    <file name="medical_school-crop-u867.jpg" crc="92088981" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
     </file>
     <file name="exam.jpg" crc="516906155" seo="true" ref="index">
       <caption webpage="index" alt=""/>
@@ -48,8 +45,11 @@
       <caption webpage="health-graduate-consultants---courses" alt=""/>
       <caption webpage="corses-old" alt=""/>
     </file>
+    <file name="medical_school.jpg" crc="3902733860" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="4071880609" seo="true" mt="1507395498779" redirect="true"/>
+  <file name="index.html" crc="103041702" seo="true" mt="1507395926638" redirect="true"/>
   <file name="corses-old.html" crc="4081763955" seo="true" mt="1507395498779" redirect="true"/>
-  <file name="health-graduate-consultants---courses.html" crc="203252583" seo="true" mt="1507395498779" redirect="true"/>
+  <file name="health-graduate-consultants---courses.html" crc="4076721275" seo="true" mt="1507395942195" redirect="true"/>
 </manifest>
