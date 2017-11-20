@@ -1,0 +1,96 @@
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://www.dannopeters.ca/DemoSites/SHAS" resolutions="1x" timestamp="1511143509209">
+  <folder name="css">
+    <file name="site_global.css" crc="410781596"/>
+    <file name="master_a-master.css" crc="4051993704" ref="tours:contact:index"/>
+    <file name="tours.css" crc="226845535" ref="tours"/>
+    <file name="contact.css" crc="226845535" ref="contact"/>
+    <file name="index.css" crc="527141402" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:tours:contact"/>
+    <file name="museutils.js" crc="3803043152" ref="index:tours:contact"/>
+    <file name="whatinput.js" crc="86476730" ref="index:tours:contact"/>
+    <file name="museconfig.js" crc="4153641093" ref="index:tours:contact"/>
+    <file name="jquery.watch.js" crc="99325471" ref="index:tours:contact"/>
+    <file name="webpro.js" crc="242022427" ref="index"/>
+    <file name="musewpslideshow.js" crc="457073769" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="483674903" ref="index"/>
+    <file name="touchswipe.js" crc="4066113679" ref="index"/>
+    <file name="jquery.musemenu.js" crc="3784699396" ref="index:tours:contact"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:tours:contact"/>
+    <file name="require.js" crc="4157109226" ref="index:tours:contact"/>
+  </folder>
+  <folder name="images">
+    <file name="favicon.ico" crc="3786036903" ref="index"/>
+    <file name="background image blue long.png" crc="190020089" ref="index:tours:contact">
+      <caption webpage="index" alt=""/>
+      <caption webpage="tours" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="copper-scratched-crop-u857.png" crc="86636645" seo="true" ref="index:tours:contact">
+      <caption webpage="index" alt=""/>
+      <caption webpage="tours" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name=" copper fighter-crop-u859.png" crc="3827314335" seo="true" ref="index:tours:contact">
+      <caption webpage="index" alt=""/>
+      <caption webpage="tours" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="sask aviation historical society logo.png" crc="201245036" seo="true" ref="index:tours:contact">
+      <caption webpage="index" alt=""/>
+      <caption webpage="tours" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="gypsy moth-crop-u1388.jpg" crc="4059281918" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="tracker-crop-u1529.jpg" crc="3829095283" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="tiger moth-crop-u1549.jpg" crc="3876499643" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ct-133 shooting star-crop-u1569.jpg" crc="97293017" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="loading.gif" crc="3815509949" ref="index"/>
+    <file name="pasted image 1408x657.jpg" crc="3872059838" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="copper-scratched-crop-u1673.png" crc="69111164" seo="true" ref="index:tours:contact">
+      <caption webpage="index" alt=""/>
+      <caption webpage="tours" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="sask aviation historical society wings.png" crc="4155586250" seo="true" ref="index:tours:contact">
+      <caption webpage="index" alt=""/>
+      <caption webpage="tours" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="pasted image 250x250.png" crc="4153944693" seo="true" ref="index:tours:contact">
+      <caption webpage="index" alt=""/>
+      <caption webpage="tours" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="pasted image 300x300.jpg" crc="4093645381" seo="true" ref="index:tours:contact">
+      <caption webpage="index" alt=""/>
+      <caption webpage="tours" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="parchment texture-crop-u1473.jpg" crc="455854262" seo="true" ref="index:tours:contact">
+      <caption webpage="index" alt=""/>
+      <caption webpage="tours" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+    <file name="sask aviation historical society logo-crop-u1861.png" crc="194771519" seo="true" ref="index:tours:contact">
+      <caption webpage="index" alt=""/>
+      <caption webpage="tours" alt=""/>
+      <caption webpage="contact" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="62409257" seo="true" mt="1511143506981" redirect="true"/>
+  <file name="tours.html" crc="127552785" seo="true" mt="1511143506981" redirect="true"/>
+  <file name="contact.html" crc="3969101480" seo="true" mt="1511143506981" redirect="true"/>
+</manifest>
