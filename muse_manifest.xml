@@ -1,17 +1,17 @@
-<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="false" exportTarget="other" domain="DannoPeters.ca" resolutions="1x,2x" timestamp="1493609566904">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="false" exportTarget="other" domain="DannoPeters.ca" resolutions="1x,2x" timestamp="1511921470336">
   <folder name="css">
-    <file name="site_global.css" crc="3856229311"/>
-    <file name="master_a-master.css" crc="4100395396" ref="index:ndvi---danno-peters:media---danno-peters:drone-services---danno-peters:design---danno-peters"/>
-    <file name="index.css" crc="3813485522" ref="index"/>
-    <file name="iefonts_index.css" crc="3804399610" ref="index"/>
-    <file name="ndvi---danno-peters.css" crc="3937881453" ref="ndvi---danno-peters"/>
-    <file name="iefonts_ndvi---danno-peters.css" crc="357562272" ref="ndvi---danno-peters"/>
-    <file name="media---danno-peters.css" crc="4137242089" ref="media---danno-peters"/>
-    <file name="iefonts_media---danno-peters.css" crc="288402533" ref="media---danno-peters"/>
-    <file name="drone-services---danno-peters.css" crc="4204895936" ref="drone-services---danno-peters"/>
+    <file name="site_global.css" crc="248447006"/>
+    <file name="master_a-master.css" crc="434047683" ref="drone-services---danno-peters:design---danno-peters:index:media---danno-peters:ndvi---danno-peters"/>
+    <file name="drone-services---danno-peters.css" crc="209793522" ref="drone-services---danno-peters"/>
     <file name="iefonts_drone-services---danno-peters.css" crc="4156386381" ref="drone-services---danno-peters"/>
-    <file name="design---danno-peters.css" crc="469553693" ref="design---danno-peters"/>
+    <file name="design---danno-peters.css" crc="3773156760" ref="design---danno-peters"/>
     <file name="iefonts_design---danno-peters.css" crc="177630293" ref="design---danno-peters"/>
+    <file name="index.css" crc="409784228" ref="index"/>
+    <file name="iefonts_index.css" crc="3804399610" ref="index"/>
+    <file name="media---danno-peters.css" crc="4199144351" ref="media---danno-peters"/>
+    <file name="iefonts_media---danno-peters.css" crc="288402533" ref="media---danno-peters"/>
+    <file name="ndvi---danno-peters.css" crc="4098351346" ref="ndvi---danno-peters"/>
+    <file name="iefonts_ndvi---danno-peters.css" crc="357562272" ref="ndvi---danno-peters"/>
   </folder>
   <folder name="assets">
     <file name="fs3vk5li7w1u21x.jpg" crc="302131846" seo="true" mt="1472849538000"/>
@@ -23,150 +23,94 @@
     <file name="ndvi_vis_raw-zoom-lowquality.jpg" crc="4150369836" seo="true" mt="1485722242000"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="museutils.js" crc="4232573551" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="whatinput.js" crc="86476730" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="museconfig.js" crc="4152223963" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="jquery.watch.js" crc="3844535323" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="webpro.js" crc="3770351119" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="musewpslideshow.js" crc="4244742588" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="jquery.museoverlay.js" crc="432750910" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="touchswipe.js" crc="3912873526" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="drone-services---danno-peters:media---danno-peters"/>
-    <file name="jquery.musemenu.js" crc="38860304" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="require.js" crc="4234670167" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="musewpdisclosure.js" crc="347705465" ref="ndvi---danno-peters"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="museutils.js" crc="3803043152" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="whatinput.js" crc="86476730" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="museconfig.js" crc="4153641093" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="webpro.js" crc="242022427" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="musewpslideshow.js" crc="457073769" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="jquery.museoverlay.js" crc="483674903" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="touchswipe.js" crc="4066113679" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="jquery.watch.js" crc="99325471" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="jquery.musemenu.js" crc="3784699396" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="drone-services---danno-peters"/>
+    <file name="html5shiv.js" crc="4241844378" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="require.js" crc="4157109226" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="musewpdisclosure.js" crc="119288625" ref="ndvi---danno-peters"/>
   </folder>
   <folder name="images">
+    <file name="drone-services---danno-peters-favicon.ico" crc="3865049730" ref="drone-services---danno-peters"/>
     <file name="dji_phantom_3_pro-crop-u18505.jpg" crc="377829396" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="DJI Phantom 3 Professional Unmanned Aerial Vehicle ( UAV ) hovers durring a drone mission near Saskatoon, Saskatchewan, Canada"/>
       <caption webpage="drone-services---danno-peters" alt="DJI Phantom 3 Professional Unmanned Aerial Vehicle ( UAV ) hovers durring a drone mission near Saskatoon, Saskatchewan, Canada"/>
     </file>
     <file name="dji_phantom_3_pro-crop-u18505_2x.jpg" crc="3918203052" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="DJI Phantom 3 Professional Unmanned Aerial Vehicle ( UAV ) hovers durring a drone mission near Saskatoon, Saskatchewan, Canada"/>
       <caption webpage="drone-services---danno-peters" alt="DJI Phantom 3 Professional Unmanned Aerial Vehicle ( UAV ) hovers durring a drone mission near Saskatoon, Saskatchewan, Canada"/>
     </file>
     <file name="u18558-6.png" crc="3944948423" ref="drone-services---danno-peters"/>
     <file name="u18558-6_2x.png" crc="4080491462" ref="drone-services---danno-peters"/>
     <file name="maple_leaf.png" crc="370734199" seo="true" ref="drone-services---danno-peters:ndvi---danno-peters">
-      <caption webpage="drone-services---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="drone-services" alt=""/>
+      <caption webpage="drone-services---danno-peters" alt=""/>
     </file>
     <file name="maple_leaf_2x.png" crc="59162406" seo="true" ref="drone-services---danno-peters:ndvi---danno-peters">
-      <caption webpage="drone-services---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="drone-services" alt=""/>
+      <caption webpage="drone-services---danno-peters" alt=""/>
     </file>
-    <file name="off-u49088-fr.png" crc="4127581022" ref="drone-services---danno-peters:media---danno-peters"/>
-    <file name="off-u49088-fr_2x.png" crc="4045063771" ref="drone-services---danno-peters:media---danno-peters"/>
-    <file name="unavailable-u49088-unavailable-fr.png" crc="4073077407" ref="drone-services---danno-peters:media---danno-peters"/>
-    <file name="unavailable-u49088-unavailable-fr_2x.png" crc="3887090482" ref="drone-services---danno-peters:media---danno-peters"/>
-    <file name="off_rollover-u49088-off-r-fr.png" crc="329157455" ref="drone-services---danno-peters:media---danno-peters"/>
-    <file name="off_rollover-u49088-off-r-fr_2x.png" crc="374389402" ref="drone-services---danno-peters:media---danno-peters"/>
-    <file name="off_mousedown-u49088-off-m-fr.png" crc="4224052066" ref="drone-services---danno-peters:media---danno-peters"/>
-    <file name="off_mousedown-u49088-off-m-fr_2x.png" crc="332219046" ref="drone-services---danno-peters:media---danno-peters"/>
-    <file name="on-u49088-on-fr.png" crc="4227417253" ref="drone-services---danno-peters:media---danno-peters"/>
-    <file name="on-u49088-on-fr_2x.png" crc="3812858068" ref="drone-services---danno-peters:media---danno-peters"/>
-    <file name="on_rollover-u49088-on-r-fr.png" crc="4058860863" ref="drone-services---danno-peters:media---danno-peters"/>
-    <file name="on_rollover-u49088-on-r-fr_2x.png" crc="4078907173" ref="drone-services---danno-peters:media---danno-peters"/>
-    <file name="on_mousedown-u49088-on-m-fr.png" crc="199738993" ref="drone-services---danno-peters:media---danno-peters"/>
-    <file name="on_mousedown-u49088-on-m-fr_2x.png" crc="4235750524" ref="drone-services---danno-peters:media---danno-peters"/>
-    <file name="u49164.png" crc="94237757" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="u49164_2x.png" crc="369365161" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="u49164-r.png" crc="438044963" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="u49164-r_2x.png" crc="3915896749" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="u49164-m.png" crc="438044963" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="u49164-m_2x.png" crc="3915896749" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="u49162.png" crc="4127902238" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="u49162_2x.png" crc="4137013175" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="u49162-r.png" crc="511694484" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="u49162-r_2x.png" crc="352487613" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="u49162-m.png" crc="511694484" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="u49162-m_2x.png" crc="352487613" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="u49095.png" crc="4293357700" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="u49095_2x.png" crc="254798487" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="u49095-r.png" crc="4185164780" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="u49095-r_2x.png" crc="4065340133" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="u49095-m.png" crc="4185164780" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="u49095-m_2x.png" crc="4065340133" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
     <file name="howell026-crop-u18559.jpg" crc="177141139" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="Aerial image of combine harvesting durum wheat from a field near Swift Current, Saskatchewan, Canada"/>
       <caption webpage="drone-services---danno-peters" alt="Aerial image of combine harvesting durum wheat from a field near Swift Current, Saskatchewan, Canada"/>
     </file>
     <file name="howell026-crop-u18559_2x.jpg" crc="4200529453" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="Aerial image of combine harvesting durum wheat from a field near Swift Current, Saskatchewan, Canada"/>
       <caption webpage="drone-services---danno-peters" alt="Aerial image of combine harvesting durum wheat from a field near Swift Current, Saskatchewan, Canada"/>
     </file>
-    <file name="ed-wilma_924 zoom-crop-u32756.jpg" crc="4268189502" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="Inspecting shingles on the roof of a residential building using a multirotor drone ( Unmanned Aerial Vehicle )"/>
+    <file name="ed-wilma_924 zoom-crop-u32756.jpg" crc="219497417" seo="true" ref="drone-services---danno-peters">
       <caption webpage="drone-services---danno-peters" alt="Inspecting shingles on the roof of a residential building using a multirotor drone ( Unmanned Aerial Vehicle )"/>
     </file>
-    <file name="ed-wilma_924 zoom-crop-u32756_2x.jpg" crc="3868548961" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="Inspecting shingles on the roof of a residential building using a multirotor drone ( Unmanned Aerial Vehicle )"/>
+    <file name="ed-wilma_924 zoom-crop-u32756_2x.jpg" crc="181747879" seo="true" ref="drone-services---danno-peters">
       <caption webpage="drone-services---danno-peters" alt="Inspecting shingles on the roof of a residential building using a multirotor drone ( Unmanned Aerial Vehicle )"/>
     </file>
     <file name="er1_150ft.png" crc="273277845" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="Inspecting asphalt roadways and intersections using a remotely piloted Unmanned Aerial Vehicle"/>
       <caption webpage="drone-services---danno-peters" alt="Inspecting asphalt roadways and intersections using a remotely piloted Unmanned Aerial Vehicle"/>
     </file>
     <file name="er1_150ft_2x.png" crc="4197508677" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="Inspecting asphalt roadways and intersections using a remotely piloted Unmanned Aerial Vehicle"/>
       <caption webpage="drone-services---danno-peters" alt="Inspecting asphalt roadways and intersections using a remotely piloted Unmanned Aerial Vehicle"/>
     </file>
     <file name="dji_0087_edited-1-crop-u32762.jpg" crc="185622545" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="Stunning areial view of a sunset over a lake with two boats cruising on the lake"/>
       <caption webpage="drone-services---danno-peters" alt="Stunning areial view of a sunset over a lake with two boats cruising on the lake"/>
     </file>
     <file name="dji_0087_edited-1-crop-u32762_2x.jpg" crc="526965284" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="Stunning areial view of a sunset over a lake with two boats cruising on the lake"/>
       <caption webpage="drone-services---danno-peters" alt="Stunning areial view of a sunset over a lake with two boats cruising on the lake"/>
     </file>
     <file name="dennis015-crop-u32759.jpg" crc="3995130246" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="Aerial drone photo of a rural residential yard"/>
       <caption webpage="drone-services---danno-peters" alt="Aerial drone photo of a rural residential yard"/>
     </file>
     <file name="dennis015-crop-u32759_2x.jpg" crc="3967833091" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="Aerial drone photo of a rural residential yard"/>
       <caption webpage="drone-services---danno-peters" alt="Aerial drone photo of a rural residential yard"/>
     </file>
     <file name="metheral farm0015-crop-u32775.jpg" crc="3877700471" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="HD ( High Definition ) aerial map of a homestead"/>
       <caption webpage="drone-services---danno-peters" alt="HD ( High Definition ) aerial map of a homestead"/>
     </file>
     <file name="metheral farm0015-crop-u32775_2x.jpg" crc="4266940483" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="HD ( High Definition ) aerial map of a homestead"/>
       <caption webpage="drone-services---danno-peters" alt="HD ( High Definition ) aerial map of a homestead"/>
     </file>
     <file name="metheral farm0015-crop-u32781.jpg" crc="214274482" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt=""/>
       <caption webpage="drone-services---danno-peters" alt=""/>
     </file>
     <file name="metheral farm0015-crop-u32781_2x.jpg" crc="134971548" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt=""/>
       <caption webpage="drone-services---danno-peters" alt=""/>
     </file>
     <file name="screen shot 2016-09-06 at 42241 pm-crop-u32777.jpg" crc="289470302" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="3D (Three Dimensional) Virtural Reality drone map of a farm yard"/>
       <caption webpage="drone-services---danno-peters" alt="3D (Three Dimensional) Virtural Reality drone map of a farm yard"/>
     </file>
     <file name="screen shot 2016-09-06 at 42241 pm-crop-u32777_2x.jpg" crc="227352356" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="3D (Three Dimensional) Virtural Reality drone map of a farm yard"/>
       <caption webpage="drone-services---danno-peters" alt="3D (Three Dimensional) Virtural Reality drone map of a farm yard"/>
     </file>
     <file name="untitled.jpg" crc="208220888" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="comparision showing low resolution, low depth Google Maps satelite imagery"/>
       <caption webpage="drone-services---danno-peters" alt="comparision showing low resolution, low depth Google Maps satelite imagery"/>
     </file>
-    <file name="metheral farm0016-crop-u32769.png" crc="80028341" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="Zoomed in aerial image showing details down to a quarter inch resolution"/>
+    <file name="metheral farm0016-crop-u32769.png" crc="95318176" seo="true" ref="drone-services---danno-peters">
       <caption webpage="drone-services---danno-peters" alt="Zoomed in aerial image showing details down to a quarter inch resolution"/>
     </file>
-    <file name="metheral farm0016-crop-u32769_2x.png" crc="4162041958" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="Zoomed in aerial image showing details down to a quarter inch resolution"/>
+    <file name="metheral farm0016-crop-u32769_2x.png" crc="4281584620" seo="true" ref="drone-services---danno-peters">
       <caption webpage="drone-services---danno-peters" alt="Zoomed in aerial image showing details down to a quarter inch resolution"/>
     </file>
     <file name="google_maps_logo-u32772.png" crc="156287235" ref="drone-services---danno-peters"/>
@@ -174,31 +118,58 @@
     <file name="u32771-4.png" crc="3807504268" ref="drone-services---danno-peters"/>
     <file name="u32771-4_2x.png" crc="471628026" ref="drone-services---danno-peters"/>
     <file name="untitled_panorama2_edited-1 copy-crop-u32765.png" crc="3766891301" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="Aerial map of lake bottom looking for submerged objects such as logs, rocks, and other debris."/>
       <caption webpage="drone-services---danno-peters" alt="Aerial map of lake bottom looking for submerged objects such as logs, rocks, and other debris."/>
     </file>
     <file name="untitled_panorama2_edited-1 copy-crop-u32765_2x.png" crc="471293653" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="Aerial map of lake bottom looking for submerged objects such as logs, rocks, and other debris."/>
       <caption webpage="drone-services---danno-peters" alt="Aerial map of lake bottom looking for submerged objects such as logs, rocks, and other debris."/>
     </file>
     <file name="danno_hfr_fb360_format-crop-u33045.jpg" crc="3978640341" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="Aerial Unmanned Aerial Vehicle ( UAV )panoramic image of Huskie Formula Racing ( HFR ) ice racing their FSAE car on Blackstrap Lake "/>
       <caption webpage="drone-services---danno-peters" alt="Aerial Unmanned Aerial Vehicle ( UAV )panoramic image of Huskie Formula Racing ( HFR ) ice racing their FSAE car on Blackstrap Lake "/>
     </file>
     <file name="danno_hfr_fb360_format-crop-u33045_2x.jpg" crc="427816447" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="Aerial Unmanned Aerial Vehicle ( UAV )panoramic image of Huskie Formula Racing ( HFR ) ice racing their FSAE car on Blackstrap Lake "/>
       <caption webpage="drone-services---danno-peters" alt="Aerial Unmanned Aerial Vehicle ( UAV )panoramic image of Huskie Formula Racing ( HFR ) ice racing their FSAE car on Blackstrap Lake "/>
     </file>
     <file name="sept1016_029.jpg" crc="3765814834" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="Panoramaic aerial drone image of a wedding setup in a farm yard near Regina Saskatchewan Canada"/>
       <caption webpage="drone-services---danno-peters" alt="Panoramaic aerial drone image of a wedding setup in a farm yard near Regina Saskatchewan Canada"/>
     </file>
     <file name="sept1016_029_2x.jpg" crc="298470763" seo="true" ref="drone-services---danno-peters">
-      <caption webpage="drone-services" alt="Panoramaic aerial drone image of a wedding setup in a farm yard near Regina Saskatchewan Canada"/>
       <caption webpage="drone-services---danno-peters" alt="Panoramaic aerial drone image of a wedding setup in a farm yard near Regina Saskatchewan Canada"/>
     </file>
-    <file name="dannopeters_logo-u52525.png" crc="3814015319" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
-    <file name="dannopeters_logo-u52525_2x.png" crc="331041279" ref="index:drone-services---danno-peters:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="dannopeters_logo-u52525.png" crc="3814015319" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="dannopeters_logo-u52525_2x.png" crc="331041279" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="off-u49088-fr.png" crc="4127581022" ref="drone-services---danno-peters"/>
+    <file name="off-u49088-fr_2x.png" crc="4045063771" ref="drone-services---danno-peters"/>
+    <file name="unavailable-u49088-unavailable-fr.png" crc="4073077407" ref="drone-services---danno-peters"/>
+    <file name="unavailable-u49088-unavailable-fr_2x.png" crc="3887090482" ref="drone-services---danno-peters"/>
+    <file name="off_rollover-u49088-off-r-fr.png" crc="329157455" ref="drone-services---danno-peters"/>
+    <file name="off_rollover-u49088-off-r-fr_2x.png" crc="374389402" ref="drone-services---danno-peters"/>
+    <file name="off_mousedown-u49088-off-m-fr.png" crc="4224052066" ref="drone-services---danno-peters"/>
+    <file name="off_mousedown-u49088-off-m-fr_2x.png" crc="332219046" ref="drone-services---danno-peters"/>
+    <file name="on-u49088-on-fr.png" crc="4227417253" ref="drone-services---danno-peters"/>
+    <file name="on-u49088-on-fr_2x.png" crc="3812858068" ref="drone-services---danno-peters"/>
+    <file name="on_rollover-u49088-on-r-fr.png" crc="4058860863" ref="drone-services---danno-peters"/>
+    <file name="on_rollover-u49088-on-r-fr_2x.png" crc="4078907173" ref="drone-services---danno-peters"/>
+    <file name="on_mousedown-u49088-on-m-fr.png" crc="199738993" ref="drone-services---danno-peters"/>
+    <file name="on_mousedown-u49088-on-m-fr_2x.png" crc="4235750524" ref="drone-services---danno-peters"/>
+    <file name="u49164.png" crc="94237757" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="u49164_2x.png" crc="369365161" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="u49164-r.png" crc="438044963" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="u49164-r_2x.png" crc="3915896749" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="u49164-m.png" crc="438044963" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="u49164-m_2x.png" crc="3915896749" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="u49162.png" crc="4127902238" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="u49162_2x.png" crc="4137013175" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="u49162-r.png" crc="511694484" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="u49162-r_2x.png" crc="352487613" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="u49162-m.png" crc="511694484" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="u49162-m_2x.png" crc="352487613" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="u49095.png" crc="4293357700" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="u49095_2x.png" crc="254798487" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="u49095-r.png" crc="4185164780" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="u49095-r_2x.png" crc="4065340133" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="u49095-m.png" crc="4185164780" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="u49095-m_2x.png" crc="4065340133" ref="drone-services---danno-peters:index:design---danno-peters:ndvi---danno-peters:media---danno-peters"/>
+    <file name="about-me---danno-peters-favicon.ico" crc="3865049730" ref="index"/>
     <file name="pasted image 1911x977-crop-u54914.jpg" crc="231800314" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -224,7 +195,7 @@
     <file name="dji_phantom_3_pro-crop-u36145.jpg" crc="9558945" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="dji_phantom_3_pro-crop-u36145_2x.jpg" crc="4091654859" seo="true" ref="index">
+    <file name="dji_phantom_3_pro-crop-u36145_2x.jpg" crc="4064083909" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="gimbal 2-crop-u36147.jpg" crc="471254107" seo="true" ref="index">
@@ -233,441 +204,332 @@
     <file name="gimbal 2-crop-u36147_2x.jpg" crc="3902415012" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
+    <file name="design---danno-peters-favicon.ico" crc="3865049730" ref="design---danno-peters"/>
     <file name="f8d939yi4idb3jk-crop-u39575.jpg" crc="312292986" seo="true" ref="design---danno-peters">
       <caption webpage="design---danno-peters" alt=""/>
-      <caption webpage="design" alt=""/>
     </file>
     <file name="f8d939yi4idb3jk-crop-u39575_2x.jpg" crc="302088505" seo="true" ref="design---danno-peters">
       <caption webpage="design---danno-peters" alt=""/>
-      <caption webpage="design" alt=""/>
     </file>
     <file name="u35341-6.png" crc="135688760" ref="design---danno-peters"/>
     <file name="u35341-6_2x.png" crc="326605581" ref="design---danno-peters"/>
     <file name="pasted image 1375x687.jpg" crc="3962100136" seo="true" ref="design---danno-peters">
       <caption webpage="design---danno-peters" alt=""/>
-      <caption webpage="design" alt=""/>
     </file>
     <file name="pasted image 1375x687_2x.jpg" crc="203774865" seo="true" ref="design---danno-peters">
       <caption webpage="design---danno-peters" alt=""/>
-      <caption webpage="design" alt=""/>
     </file>
     <file name="gimbal 2-crop-u39666.jpg" crc="347228343" seo="true" ref="design---danno-peters">
       <caption webpage="design---danno-peters" alt=""/>
-      <caption webpage="design" alt=""/>
     </file>
     <file name="gimbal 2-crop-u39666_2x.jpg" crc="4011453910" seo="true" ref="design---danno-peters">
       <caption webpage="design---danno-peters" alt=""/>
-      <caption webpage="design" alt=""/>
     </file>
     <file name="pasted image 1417x673-crop-u39709.jpg" crc="128983503" seo="true" ref="design---danno-peters">
       <caption webpage="design---danno-peters" alt=""/>
-      <caption webpage="design" alt=""/>
     </file>
     <file name="pasted image 1417x673-crop-u39709_2x.jpg" crc="4290959428" seo="true" ref="design---danno-peters">
       <caption webpage="design---danno-peters" alt=""/>
-      <caption webpage="design" alt=""/>
     </file>
     <file name="pasted image 1624x514.jpg" crc="4235129440" seo="true" ref="design---danno-peters">
       <caption webpage="design---danno-peters" alt=""/>
-      <caption webpage="design" alt=""/>
     </file>
     <file name="pasted image 1624x514_2x.jpg" crc="511089025" seo="true" ref="design---danno-peters">
       <caption webpage="design---danno-peters" alt=""/>
-      <caption webpage="design" alt=""/>
     </file>
     <file name="fa7gwywi4j7d913.jpg" crc="4067036390" seo="true" ref="design---danno-peters">
       <caption webpage="design---danno-peters" alt=""/>
-      <caption webpage="design" alt=""/>
     </file>
     <file name="fa7gwywi4j7d913_2x.jpg" crc="51662213" seo="true" ref="design---danno-peters">
       <caption webpage="design---danno-peters" alt=""/>
-      <caption webpage="design" alt=""/>
     </file>
     <file name="fs3vk5li7w1u21x.jpg" crc="4099966202" seo="true" ref="design---danno-peters">
       <caption webpage="design---danno-peters" alt=""/>
-      <caption webpage="design" alt=""/>
     </file>
     <file name="fjg6noni7w1u35slarge.jpg" crc="3870975391" seo="true" ref="design---danno-peters">
       <caption webpage="design---danno-peters" alt=""/>
-      <caption webpage="design" alt=""/>
     </file>
     <file name="pasted image 874x373-crop-u39770.jpg" crc="4175337825" seo="true" ref="design---danno-peters">
       <caption webpage="design---danno-peters" alt=""/>
-      <caption webpage="design" alt=""/>
     </file>
     <file name="pasted image 874x373-crop-u39770_2x.jpg" crc="247733945" seo="true" ref="design---danno-peters">
       <caption webpage="design---danno-peters" alt=""/>
-      <caption webpage="design" alt=""/>
     </file>
     <file name="pasted image 548x611.jpg" crc="480202757" seo="true" ref="design---danno-peters">
       <caption webpage="design---danno-peters" alt=""/>
-      <caption webpage="design" alt=""/>
     </file>
     <file name="pasted image 548x611_2x.jpg" crc="3820093132" seo="true" ref="design---danno-peters">
       <caption webpage="design---danno-peters" alt=""/>
-      <caption webpage="design" alt=""/>
     </file>
+    <file name="ndvi---danno-peters-favicon.ico" crc="3865049730" ref="ndvi---danno-peters"/>
     <file name="dji_phantom_3_pro-crop-u36951.jpg" crc="377829396" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt="DJI Phantom 3 Professional Unmanned Aerial Vehicle ( UAV ) hovers durring a drone mission near Saskatoon, Saskatchewan, Canada"/>
-      <caption webpage="ndvi" alt="DJI Phantom 3 Professional Unmanned Aerial Vehicle ( UAV ) hovers durring a drone mission near Saskatoon, Saskatchewan, Canada"/>
     </file>
     <file name="dji_phantom_3_pro-crop-u36951_2x.jpg" crc="3918203052" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt="DJI Phantom 3 Professional Unmanned Aerial Vehicle ( UAV ) hovers durring a drone mission near Saskatoon, Saskatchewan, Canada"/>
-      <caption webpage="ndvi" alt="DJI Phantom 3 Professional Unmanned Aerial Vehicle ( UAV ) hovers durring a drone mission near Saskatoon, Saskatchewan, Canada"/>
     </file>
     <file name="u36923-6.png" crc="3944948423" ref="ndvi---danno-peters"/>
     <file name="u36923-6_2x.png" crc="4080491462" ref="ndvi---danno-peters"/>
     <file name="earth_ndvi_dannopeters.gif" crc="3864064968" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="river ir.jpg" crc="138220643" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="river ir_2x.jpg" crc="3872022278" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="saskatoon ndvi raw.jpg" crc="152374518" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="saskatoon ndvi raw_2x.jpg" crc="4120156398" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="saskatoon ndvi hd red green.jpg" crc="3938075530" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="saskatoon ndvi hd red green_2x.jpg" crc="168544498" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="saskatoon ndvi land cover.jpg" crc="161880465" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="saskatoon ndvi land cover_2x.jpg" crc="422021195" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="saskatoon ndvi green.jpg" crc="459726302" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="saskatoon ndvi green_2x.jpg" crc="3857809378" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="saskatoon ndvi iron.jpg" crc="3898096838" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="saskatoon ndvi iron_2x.jpg" crc="3828732583" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="saskatoon ndvi red green blind.jpg" crc="29363169" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="saskatoon ndvi red green blind_2x.jpg" crc="3852691176" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="saskatoon ndvi basic red green.jpg" crc="3997718451" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="saskatoon ndvi basic red green_2x.jpg" crc="501192799" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="brown leaf reflectance-crop-u38482.png" crc="341255798" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="brown leaf reflectance.png" crc="350738823" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="brown leaf reflectance_2x.png" crc="3985583402" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="yellow leaf reflectance.png" crc="3848541058" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="yellow leaf reflectance_2x.png" crc="4066237840" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="green leaf reflectance.png" crc="4227380911" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="green leaf reflectance_2x.png" crc="3769907382" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="weed leaf reflectance.png" crc="409645414" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="weed leaf reflectance_2x.png" crc="3943153666" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="yellow-leaf.png" crc="70566567" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="yellow-leaf_2x.png" crc="70566567" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="brown-leaf.png" crc="19447793" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="brown-leaf_2x.png" crc="19447793" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="green-leaf.png" crc="512032001" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="green-leaf_2x.png" crc="512032001" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="weed_leaf.png" crc="299356140" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="weed_leaf_2x.png" crc="299356140" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="rock reflectance.png" crc="4096536684" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="rock reflectance_2x.png" crc="3898466363" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="false positive reflectance.png" crc="4036242172" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="false positive reflectance_2x.png" crc="4240881085" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="rock-576668.png" crc="442836634" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="rock-576668_2x.png" crc="4030334488" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="green-roof-house.png" crc="3977864656" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="green-roof-house_2x.png" crc="419940442" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="ndvi absorption.png" crc="486315889" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="ndvi absorption_2x.png" crc="4079964634" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="ndvi emittance.png" crc="4139493250" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
     <file name="ndvi emittance_2x.png" crc="4150270516" seo="true" ref="ndvi---danno-peters">
       <caption webpage="ndvi---danno-peters" alt=""/>
-      <caption webpage="ndvi" alt=""/>
     </file>
+    <file name="media---danno-peters-favicon.ico" crc="3865049730" ref="media---danno-peters"/>
     <file name="edited img_0270-crop-u40933.jpg" crc="394975474" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="edited img_0270-crop-u40933_2x.jpg" crc="457809478" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="u40455-6.png" crc="4207516204" ref="media---danno-peters"/>
     <file name="u40455-6_2x.png" crc="4068477755" ref="media---danno-peters"/>
     <file name="dsc_0564-crop-u41485.jpg" crc="4204366116" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="dsc_0564-crop-u41485_2x.jpg" crc="4122505771" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="sunpeaks pano branded-crop-u41023.jpg" crc="496434852" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="sunpeaks pano branded-crop-u41023_2x.jpg" crc="4253725020" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="edmonton river valley 1.jpg" crc="3904499862" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="edmonton river valley 1_2x.jpg" crc="3770754859" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="mitchinsons011_marked-crop-u41164.jpg" crc="3777079027" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="mitchinsons011_marked-crop-u41164_2x.jpg" crc="4101882048" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="sept1016_010.jpg" crc="4246059140" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="sept1016_010_2x.jpg" crc="396689109" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="howell farm.jpg" crc="3832238850" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="howell farm_2x.jpg" crc="4005818101" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="eagleridge.jpg" crc="4116034717" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="eagleridge_2x.jpg" crc="3843372644" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="dsc_0200 copy-crop-u41166.jpg" crc="124520065" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="dsc_0200 copy-crop-u41166_2x.jpg" crc="529395937" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="welding filter.gif" crc="473890298" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="img_0567.jpg" crc="4224095706" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="img_0567_2x.jpg" crc="4029848184" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="flying_aug1916_004-crop-u41162.jpg" crc="3953652649" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="flying_aug1916_004-crop-u41162_2x.jpg" crc="3801478977" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="edited a img_3152 2.jpg" crc="3792070458" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="edited a img_3152 2_2x.jpg" crc="235310961" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="img_0309.jpg" crc="113690680" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="img_0309_2x.jpg" crc="141304966" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="danno_hfr004-crop-u41282.jpg" crc="446717845" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="danno_hfr004-crop-u41282_2x.jpg" crc="377360851" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="img_0492_edited-1.jpg" crc="102031002" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="img_0492_edited-1_2x.jpg" crc="356323849" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="dsc_0030.jpg" crc="3859346788" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="dsc_0030_2x.jpg" crc="172672129" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="img_0951.jpg" crc="3996145161" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="img_0951_2x.jpg" crc="4089310285" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="dan_2183_edited-1.jpg" crc="210288904" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
     <file name="dan_2183_edited-1_2x.jpg" crc="3788971699" seo="true" ref="media---danno-peters">
-      <caption webpage="media" alt=""/>
       <caption webpage="media---danno-peters" alt=""/>
     </file>
-    <file name="drone-services---danno-peters-favicon.ico" crc="3865049730" ref="drone-services---danno-peters"/>
-    <file name="about-me---danno-peters-favicon.ico" crc="3865049730" ref="index"/>
-    <file name="design---danno-peters-favicon.ico" crc="3865049730" ref="design---danno-peters"/>
-    <file name="ndvi---danno-peters-favicon.ico" crc="3865049730" ref="ndvi---danno-peters"/>
-    <file name="media---danno-peters-favicon.ico" crc="3865049730" ref="media---danno-peters"/>
   </folder>
-  <file name="index.html" crc="4118543199" seo="true" mt="1493569232969" redirect="true"/>
-  <file name="drone-services---danno-peters.html" crc="4008983870" seo="true" mt="1493569466911" redirect="true"/>
-  <file name="design---danno-peters.html" crc="33497923" seo="true" mt="1493569232969" redirect="true"/>
-  <file name="ndvi---danno-peters.html" crc="434159501" seo="true" mt="1493569450162" redirect="true"/>
-  <file name="media---danno-peters.html" crc="3890790735" seo="true" mt="1493609395747" redirect="true"/>
+  <file name="drone-services---danno-peters.html" crc="382225624" seo="true" mt="1493569466911" redirect="true"/>
+  <file name="index.html" crc="4106188556" seo="true" mt="1511921409021" redirect="true"/>
+  <file name="design---danno-peters.html" crc="4006684931" seo="true" mt="1493569232969" redirect="true"/>
+  <file name="ndvi---danno-peters.html" crc="424123107" seo="true" mt="1493569450162" redirect="true"/>
+  <file name="media---danno-peters.html" crc="128876888" seo="true" mt="1493609395747" redirect="true"/>
 </manifest>

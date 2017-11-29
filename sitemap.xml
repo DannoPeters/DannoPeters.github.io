@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://DannoPeters.ca/index.html</loc>
-    <lastmod>2017-04-30</lastmod>
+    <lastmod>2017-11-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -487,26 +487,26 @@
     </image:image>
   </url>
   <url>
-    <loc>http://DannoPeters.ca/assets/ndvi_vis_grad3_lowquality.png</loc>
-    <lastmod>2017-01-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://DannoPeters.ca/assets/visual_lowquality.png</loc>
     <lastmod>2017-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://DannoPeters.ca/assets/ficjt2fi4idb3yi.tif</loc>
-    <lastmod>2016-09-05</lastmod>
+    <loc>http://DannoPeters.ca/assets/ndvi_vis_grad3_lowquality.png</loc>
+    <lastmod>2017-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://DannoPeters.ca/assets/instructables-_00.jpg</loc>
     <lastmod>2016-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://DannoPeters.ca/assets/ficjt2fi4idb3yi.tif</loc>
+    <lastmod>2016-09-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

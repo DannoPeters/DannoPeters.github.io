@@ -1,10 +1,10 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://www.dannopeters.ca/DemoSites/SHAS" resolutions="1x" timestamp="1511143509209">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://www.dannopeters.ca/DemoSites/SHAS" resolutions="1x" timestamp="1511144669020">
   <folder name="css">
     <file name="site_global.css" crc="410781596"/>
-    <file name="master_a-master.css" crc="4051993704" ref="tours:contact:index"/>
-    <file name="tours.css" crc="226845535" ref="tours"/>
-    <file name="contact.css" crc="226845535" ref="contact"/>
-    <file name="index.css" crc="527141402" ref="index"/>
+    <file name="master_a-master.css" crc="147097003" ref="tours:contact:index"/>
+    <file name="tours.css" crc="3896660333" ref="tours"/>
+    <file name="contact.css" crc="3896660333" ref="contact"/>
+    <file name="index.css" crc="65599468" ref="index"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:tours:contact"/>
@@ -42,9 +42,6 @@
       <caption webpage="tours" alt=""/>
       <caption webpage="contact" alt=""/>
     </file>
-    <file name="gypsy moth-crop-u1388.jpg" crc="4059281918" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
     <file name="blank.gif" crc="4208392903" ref="index"/>
     <file name="tracker-crop-u1529.jpg" crc="3829095283" seo="true" ref="index">
       <caption webpage="index" alt=""/>
@@ -59,7 +56,7 @@
     <file name="pasted image 1408x657.jpg" crc="3872059838" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="copper-scratched-crop-u1673.png" crc="69111164" seo="true" ref="index:tours:contact">
+    <file name="copper-scratched-crop-u1673.png" crc="110666662" seo="true" ref="index:tours:contact">
       <caption webpage="index" alt=""/>
       <caption webpage="tours" alt=""/>
       <caption webpage="contact" alt=""/>
@@ -90,7 +87,7 @@
       <caption webpage="contact" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="62409257" seo="true" mt="1511143506981" redirect="true"/>
-  <file name="tours.html" crc="127552785" seo="true" mt="1511143506981" redirect="true"/>
-  <file name="contact.html" crc="3969101480" seo="true" mt="1511143506981" redirect="true"/>
+  <file name="index.html" crc="3907417771" seo="true" mt="1511144660202" redirect="true"/>
+  <file name="tours.html" crc="4027112250" seo="true" mt="1511144660202" redirect="true"/>
+  <file name="contact.html" crc="3852817700" seo="true" mt="1511144660202" redirect="true"/>
 </manifest>
