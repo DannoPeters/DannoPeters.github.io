@@ -1,3 +1,4 @@
+# Static backup of the live site, dannopeters.ca. Run it after copying staging (dannopeters.com) to live.
 # Static backup of the live site. Run it from GitHub: Actions > "Update static backup" > Run workflow.
 name: Update static backup
 
@@ -25,14 +26,14 @@ jobs:
       - uses: actions/checkout@v4
 
       # The address is passed through an environment variable (never pasted into the script) and must be one of
-      # Danno's own sites, so a bad value can't run commands or copy someone else's site.
+      # Danno's live site, so a bad value can't run commands or copy someone else's site.
       - name: Copy the live site
         env:
           SOURCE: ${{ inputs.source }}
         run: |
           case "$SOURCE" in
-            https://dannopeters.ca|https://www.dannopeters.ca|https://dannopeters.com|https://www.dannopeters.com) ;;
-            *) echo "Source must be https://dannopeters.ca or https://dannopeters.com"; exit 1 ;;
+            https://dannopeters.ca|https://www.dannopeters.ca) ;;
+            *) echo "The backup only copies the live site, https://dannopeters.ca (not the dannopeters.com staging site)"; exit 1 ;;
           esac
           HOST="${SOURCE#https://}"
           wget --mirror --page-requisites --adjust-extension --convert-links --no-parent \
