@@ -28,6 +28,9 @@ for dirpath, _, files in os.walk(root):
         head = (f'<link rel="canonical" href="{live}{path}">'
                 '<meta name="robots" content="noindex, follow">')
         html = re.sub(r'<link rel=["\']canonical["\'][^>]*>', '', html, flags=re.I)
+        # Don't advertise WordPress or plugin versions, or links back into the admin or API.
+        html = re.sub(r'<meta name=["\']generator["\'][^>]*>', '', html, flags=re.I)
+        html = re.sub(r'<link[^>]+(?:wp-json|xmlrpc|EditURI|wlwmanifest|shortlink)[^>]*>', '', html, flags=re.I)
         html = re.sub(r'<meta name=["\']robots["\'][^>]*>', '', html, flags=re.I)
         html = re.sub(r'(<head[^>]*>)', r'\1' + head, html, count=1, flags=re.I)
         html = re.sub(r'(<body[^>]*>)', lambda m: m.group(1) + BANNER.format(date=date, live=live, path=path), html, count=1, flags=re.I)

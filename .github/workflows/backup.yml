@@ -12,6 +12,11 @@ on:
 permissions:
   contents: write
 
+# Only one backup at a time.
+concurrency:
+  group: static-backup
+  cancel-in-progress: false
+
 jobs:
   backup:
     runs-on: ubuntu-latest
@@ -19,18 +24,28 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # The address is passed through an environment variable (never pasted into the script) and must be one of
+      # Danno's own sites, so a bad value can't run commands or copy someone else's site.
       - name: Copy the live site
+        env:
+          SOURCE: ${{ inputs.source }}
         run: |
-          HOST=$(echo "${{ inputs.source }}" | sed -E 's#https?://##; s#/.*##')
+          case "$SOURCE" in
+            https://dannopeters.ca|https://www.dannopeters.ca|https://dannopeters.com|https://www.dannopeters.com) ;;
+            *) echo "Source must be https://dannopeters.ca or https://dannopeters.com"; exit 1 ;;
+          esac
+          HOST="${SOURCE#https://}"
           wget --mirror --page-requisites --adjust-extension --convert-links --no-parent \
                --restrict-file-names=windows --no-host-directories --directory-prefix=mirror \
                --domains="$HOST" -e robots=off --wait=0.3 --tries=3 --timeout=30 \
-               --reject-regex='wp-admin|wp-login|wp-json|xmlrpc|/feed/|\?s=|replytocom|/embed/|\?p=|\?page_id=' \
-               "${{ inputs.source }}/" || true
+               --reject-regex='wp-admin|wp-login|wp-json|xmlrpc|wp-cron|/feed/|/author/|\?author=|\?s=|replytocom|/embed/|\?p=|\?page_id=|readme\.html|license\.txt' \
+               "$SOURCE/" || true
           test -f mirror/index.html
 
       - name: Add backup banner
-        run: BACKUP_DATE="$(date -u '+%B %-d, %Y')" python3 .backup/make_static.py mirror "${{ inputs.source }}"
+        env:
+          SOURCE: ${{ inputs.source }}
+        run: BACKUP_DATE="$(date -u '+%B %-d, %Y')" python3 .backup/make_static.py mirror "$SOURCE"
 
       - name: Replace the site, keeping the domain and backup tools
         run: |
@@ -41,9 +56,11 @@ jobs:
           touch .nojekyll
 
       - name: Publish
+        env:
+          SOURCE: ${{ inputs.source }}
         run: |
           git config user.name "Static backup"
           git config user.email "actions@users.noreply.github.com"
           git add -A
-          git diff --cached --quiet && echo "No changes" || git commit -m "Static backup of ${{ inputs.source }} ($(date -u +%F))"
+          git diff --cached --quiet && echo "No changes" || git commit -m "Static backup of $SOURCE ($(date -u +%F))"
           git push
