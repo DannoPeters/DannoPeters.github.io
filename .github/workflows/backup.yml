@@ -1,0 +1,67 @@
+# Static backup of the live site, dannopeters.ca. Run it after copying staging (dannopeters.com) to live.
+# Static backup of the live site. Run it from GitHub: Actions > "Update static backup" > Run workflow.
+name: Update static backup
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: Site to copy
+        default: https://dannopeters.ca
+        required: true
+
+permissions:
+  contents: write
+
+# Only one backup at a time.
+concurrency:
+  group: static-backup
+  cancel-in-progress: false
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      # The address is passed through an environment variable (never pasted into the script) and must be one of
+      # Danno's live site, so a bad value can't run commands or copy someone else's site.
+      - name: Copy the live site
+        env:
+          SOURCE: ${{ inputs.source }}
+        run: |
+          case "$SOURCE" in
+            https://dannopeters.ca|https://www.dannopeters.ca) ;;
+            *) echo "The backup only copies the live site, https://dannopeters.ca (not the dannopeters.com staging site)"; exit 1 ;;
+          esac
+          HOST="${SOURCE#https://}"
+          wget --mirror --page-requisites --adjust-extension --convert-links --no-parent \
+               --restrict-file-names=windows --no-host-directories --directory-prefix=mirror \
+               --domains="$HOST" -e robots=off --wait=0.3 --tries=3 --timeout=30 \
+               --reject-regex='wp-admin|wp-login|wp-json|xmlrpc|wp-cron|/feed/|/author/|\?author=|\?s=|replytocom|/embed/|\?p=|\?page_id=|readme\.html|license\.txt' \
+               "$SOURCE/" || true
+          test -f mirror/index.html
+
+      - name: Add backup banner
+        env:
+          SOURCE: ${{ inputs.source }}
+        run: BACKUP_DATE="$(date -u '+%B %-d, %Y')" python3 .backup/make_static.py mirror "$SOURCE"
+
+      - name: Replace the site, keeping the domain and backup tools
+        run: |
+          find . -mindepth 1 -maxdepth 1 ! -name .git ! -name .github ! -name .backup ! -name mirror ! -name CNAME \
+               ! -name 'google*.html' -exec rm -rf {} +
+          cp -a mirror/. .
+          rm -rf mirror
+          touch .nojekyll
+
+      - name: Publish
+        env:
+          SOURCE: ${{ inputs.source }}
+        run: |
+          git config user.name "Static backup"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && echo "No changes" || git commit -m "Static backup of $SOURCE ($(date -u +%F))"
+          git push
